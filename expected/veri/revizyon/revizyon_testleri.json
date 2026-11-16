@@ -1,0 +1,763 @@
+{
+ "korpus": {
+  "Cumhurbaşkanlığı yıllık programı": {
+   "belge": 8,
+   "kelime": 997619,
+   "saglik_cumlesi": 3352
+  },
+  "Hükümet programı": {
+   "belge": 63,
+   "kelime": 328619,
+   "saglik_cumlesi": 518
+  },
+  "Kalkınma planı": {
+   "belge": 12,
+   "kelime": 1062724,
+   "saglik_cumlesi": 2580
+  },
+  "Yıllık program (Bakanlar Kurulu)": {
+   "belge": 1,
+   "kelime": 99489,
+   "saglik_cumlesi": 230
+  },
+  "TOPLAM": {
+   "belge": 84,
+   "kelime": 2488451,
+   "saglik_cumlesi": 6680
+  },
+  "HP_ham_cikarim_Kelime_sutunu": 332492
+ },
+ "tablo5": [
+  {
+   "Alt_orneklem": "Tüm programlar, altı dönem",
+   "KW_Cumle_H": 7.245,
+   "KW_Cumle_p": 0.2031,
+   "KW_Cumle_eps2": 0.117,
+   "n": 63,
+   "grup": 6,
+   "KW_Paragraf_H": 8.685,
+   "KW_Paragraf_p": 0.1223,
+   "KW_Paragraf_eps2": 0.14,
+   "KW_Terim1000_H": 6.781,
+   "KW_Terim1000_p": 0.2375,
+   "KW_Terim1000_eps2": 0.109,
+   "Spearman_rho": -0.012,
+   "Spearman_p": 0.9244
+  },
+  {
+   "Alt_orneklem": "Meclis Hükümetleri hariç, beş dönem",
+   "KW_Cumle_H": 3.502,
+   "KW_Cumle_p": 0.4776,
+   "KW_Cumle_eps2": 0.058,
+   "n": 61,
+   "grup": 5,
+   "KW_Paragraf_H": 3.631,
+   "KW_Paragraf_p": 0.4582,
+   "KW_Paragraf_eps2": 0.061,
+   "KW_Terim1000_H": 3.386,
+   "KW_Terim1000_p": 0.4954,
+   "KW_Terim1000_eps2": 0.056,
+   "Spearman_rho": 0.077,
+   "Spearman_p": 0.5539
+  },
+  {
+   "Alt_orneklem": "500 kelime ve üstü, n ≥ 3 olan dönemler",
+   "KW_Cumle_H": 4.227,
+   "KW_Cumle_p": 0.3762,
+   "KW_Cumle_eps2": 0.073,
+   "n": 59,
+   "grup": 5,
+   "KW_Paragraf_H": 4.364,
+   "KW_Paragraf_p": 0.359,
+   "KW_Paragraf_eps2": 0.075,
+   "KW_Terim1000_H": 3.888,
+   "KW_Terim1000_p": 0.4214,
+   "KW_Terim1000_eps2": 0.067,
+   "Spearman_rho": 0.094,
+   "Spearman_p": 0.4781
+  }
+ ],
+ "epsilon2_formulu": "epsilon^2 = H / (n - 1); H/((n^2-1)/(n+1)) ile özdeştir",
+ "wilcoxon_34_eslesme": {
+  "W": 155.0,
+  "p": 0.0138,
+  "n": 34,
+  "program_altinda": 20
+ },
+ "wilcoxon_plan_duzeyi": {
+  "n_plan": 10,
+  "W": 13.0,
+  "p_kesin": 0.1602,
+  "program_altinda": 6,
+  "medyan_fark": -0.52,
+  "medyan_fark_GA95_bootstrap": [
+   -2.67,
+   0.29
+  ],
+  "farklar_plan_1_6": [
+   0.47,
+   -0.15,
+   0.29,
+   0.39,
+   0.09,
+   -0.89
+  ],
+  "farklar_plan_7_10": [
+   -2.67,
+   -4.2,
+   -1.06,
+   -2.73
+  ]
+ },
+ "tema_kikare_isabet": {
+  "chi2": 74.0,
+  "df": 13,
+  "p": 1.4894562050978859e-10,
+  "N_isabet": 4932,
+  "CramerV": 0.122,
+  "beklenen_<5_hucre": 6,
+  "beklenen_min": 1.94,
+  "HP_isabet": 109,
+  "YP_isabet": 4823
+ },
+ "tema_isabetsiz_belge_dislandi": [
+  "GOV-2015-64"
+ ],
+ "tema_belge_duzeyi_permutasyon": {
+  "istatistik": "Σ|belge ortalaması tema payı farkı|",
+  "gozlenen": 0.888,
+  "p_kesin": 0.0003,
+  "permutasyon": 3003,
+  "n_HP": 6,
+  "n_YP": 8,
+  "sira_kor_belge_ort": 0.364,
+  "sira_kor_belge_ort_p": 0.2004
+ },
+ "tema_holm": {
+  "varlik_anlamli": [
+   "Finansman ve sağlık sigortası",
+   "Özel sektör ve piyasa",
+   "Sağlık turizmi",
+   "Birinci basamak, sosyalleştirme, kırsal",
+   "Reform, yönetişim, kalite",
+   "Tedavi hizmetleri ve hastaneler",
+   "Sağlık insan gücü"
+  ],
+  "kismi_anlamli": [
+   "Bulaşıcı hastalık ve koruyucu sağlık"
+  ],
+  "pay_anlamli": [
+   "Finansman ve sağlık sigortası",
+   "Özel sektör ve piyasa",
+   "Sağlık turizmi",
+   "Bulaşıcı hastalık ve koruyucu sağlık"
+  ]
+ },
+ "l_basiklik": [
+  {
+   "Seri": "Tüm seri",
+   "n_degisim": 62,
+   "L_basiklik": 0.482,
+   "MC_p_normal": 0.0,
+   "Klasik_basiklik_fazlasi": 12.48,
+   "DAgostino_p_klasik": 0.0,
+   "En_buyuk_mutlak_degisim": 27.56
+  },
+  {
+   "Seri": "1920 (I. İVH) ve 1925 (4. Hük.) hariç",
+   "n_degisim": 60,
+   "L_basiklik": 0.276,
+   "MC_p_normal": 0.0004,
+   "Klasik_basiklik_fazlasi": 2.56,
+   "DAgostino_p_klasik": 0.0048,
+   "En_buyuk_mutlak_degisim": 9.86
+  },
+  {
+   "Seri": "500 kelime ve üstü",
+   "n_degisim": 60,
+   "L_basiklik": 0.374,
+   "MC_p_normal": 0.0,
+   "Klasik_basiklik_fazlasi": 13.12,
+   "DAgostino_p_klasik": 0.0,
+   "En_buyuk_mutlak_degisim": 20.89
+  },
+  {
+   "Seri": "1946 sonrası",
+   "n_degisim": 48,
+   "L_basiklik": 0.211,
+   "MC_p_normal": 0.0345,
+   "Klasik_basiklik_fazlasi": 0.79,
+   "DAgostino_p_klasik": 0.1505,
+   "En_buyuk_mutlak_degisim": 5.29
+  },
+  {
+   "Seri": "1923–1945",
+   "n_degisim": 12,
+   "L_basiklik": 0.521,
+   "MC_p_normal": 0.0017,
+   "Klasik_basiklik_fazlasi": 2.39,
+   "DAgostino_p_klasik": null,
+   "En_buyuk_mutlak_degisim": 27.56
+  }
+ ],
+ "L_basiklik_normal_referans": 0.1233,
+ "en_buyuk_6_degisim": [
+  {
+   "Hukumet_ID": "GOV-1927-05",
+   "Yil": 1927,
+   "Saglik_Payi_%": 0.0,
+   "degisim": -27.56
+  },
+  {
+   "Hukumet_ID": "GOV-1923-IVH4",
+   "Yil": 1923,
+   "Saglik_Payi_%": 4.34,
+   "degisim": -20.89
+  },
+  {
+   "Hukumet_ID": "GOV-1925-04",
+   "Yil": 1925,
+   "Saglik_Payi_%": 27.56,
+   "degisim": 17.7
+  },
+  {
+   "Hukumet_ID": "GOV-1939-11",
+   "Yil": 1939,
+   "Saglik_Payi_%": 6.63,
+   "degisim": 6.63
+  },
+  {
+   "Hukumet_ID": "GOV-1939-12",
+   "Yil": 1939,
+   "Saglik_Payi_%": 0.0,
+   "degisim": -6.63
+  },
+  {
+   "Hukumet_ID": "GOV-1924-03",
+   "Yil": 1924,
+   "Saglik_Payi_%": 9.86,
+   "degisim": 5.52
+  }
+ ],
+ "who_egilim_saglamlik": [
+  {
+   "Seri": "Hükümet programları 1920–2016",
+   "Boyut": "Hizmet sunumu",
+   "coklu_rho": -0.12,
+   "coklu_p": 0.4201,
+   "alt_rho": -0.292,
+   "alt_p": 0.0466
+  },
+  {
+   "Seri": "Hükümet programları 1920–2016",
+   "Boyut": "Sağlık insan gücü",
+   "coklu_rho": 0.084,
+   "coklu_p": 0.5733,
+   "alt_rho": 0.136,
+   "alt_p": 0.3626
+  },
+  {
+   "Seri": "Hükümet programları 1920–2016",
+   "Boyut": "Sağlık bilgi sistemleri",
+   "coklu_rho": -0.098,
+   "coklu_p": 0.5129,
+   "alt_rho": -0.098,
+   "alt_p": 0.5129
+  },
+  {
+   "Seri": "Hükümet programları 1920–2016",
+   "Boyut": "Tıbbi ürünler ve teknoloji",
+   "coklu_rho": -0.504,
+   "coklu_p": 0.0003,
+   "alt_rho": -0.094,
+   "alt_p": 0.5307
+  },
+  {
+   "Seri": "Hükümet programları 1920–2016",
+   "Boyut": "Sağlık finansmanı",
+   "coklu_rho": 0.418,
+   "coklu_p": 0.0034,
+   "alt_rho": 0.435,
+   "alt_p": 0.0022
+  },
+  {
+   "Seri": "Hükümet programları 1920–2016",
+   "Boyut": "Liderlik ve yönetişim",
+   "coklu_rho": 0.244,
+   "coklu_p": 0.0986,
+   "alt_rho": 0.302,
+   "alt_p": 0.0388
+  },
+  {
+   "Seri": "Kalkınma planları 1963–2028",
+   "Boyut": "Hizmet sunumu",
+   "coklu_rho": 0.699,
+   "coklu_p": 0.0114,
+   "alt_rho": -0.406,
+   "alt_p": 0.1908
+  },
+  {
+   "Seri": "Kalkınma planları 1963–2028",
+   "Boyut": "Sağlık insan gücü",
+   "coklu_rho": -0.483,
+   "coklu_p": 0.1121,
+   "alt_rho": -0.685,
+   "alt_p": 0.0139
+  },
+  {
+   "Seri": "Kalkınma planları 1963–2028",
+   "Boyut": "Sağlık bilgi sistemleri",
+   "coklu_rho": 0.704,
+   "coklu_p": 0.0106,
+   "alt_rho": 0.627,
+   "alt_p": 0.0292
+  },
+  {
+   "Seri": "Kalkınma planları 1963–2028",
+   "Boyut": "Tıbbi ürünler ve teknoloji",
+   "coklu_rho": 0.077,
+   "coklu_p": 0.8122,
+   "alt_rho": 0.056,
+   "alt_p": 0.8629
+  },
+  {
+   "Seri": "Kalkınma planları 1963–2028",
+   "Boyut": "Sağlık finansmanı",
+   "coklu_rho": 0.678,
+   "coklu_p": 0.0153,
+   "alt_rho": 0.601,
+   "alt_p": 0.0386
+  },
+  {
+   "Seri": "Kalkınma planları 1963–2028",
+   "Boyut": "Liderlik ve yönetişim",
+   "coklu_rho": 0.573,
+   "coklu_p": 0.0513,
+   "alt_rho": 0.685,
+   "alt_p": 0.0139
+  },
+  {
+   "Seri": "CB yıllık programları 2019–2026",
+   "Boyut": "Hizmet sunumu",
+   "coklu_rho": 0.238,
+   "coklu_p": 0.5702,
+   "alt_rho": 0.214,
+   "alt_p": 0.6103
+  },
+  {
+   "Seri": "CB yıllık programları 2019–2026",
+   "Boyut": "Sağlık insan gücü",
+   "coklu_rho": -0.19,
+   "coklu_p": 0.6514,
+   "alt_rho": -0.262,
+   "alt_p": 0.5309
+  },
+  {
+   "Seri": "CB yıllık programları 2019–2026",
+   "Boyut": "Sağlık bilgi sistemleri",
+   "coklu_rho": 0.833,
+   "coklu_p": 0.0102,
+   "alt_rho": 0.833,
+   "alt_p": 0.0102
+  },
+  {
+   "Seri": "CB yıllık programları 2019–2026",
+   "Boyut": "Tıbbi ürünler ve teknoloji",
+   "coklu_rho": 0.262,
+   "coklu_p": 0.5309,
+   "alt_rho": -0.143,
+   "alt_p": 0.7358
+  },
+  {
+   "Seri": "CB yıllık programları 2019–2026",
+   "Boyut": "Sağlık finansmanı",
+   "coklu_rho": 0.214,
+   "coklu_p": 0.6103,
+   "alt_rho": -0.357,
+   "alt_p": 0.3851
+  },
+  {
+   "Seri": "CB yıllık programları 2019–2026",
+   "Boyut": "Liderlik ve yönetişim",
+   "coklu_rho": 0.214,
+   "coklu_p": 0.6103,
+   "alt_rho": 0.167,
+   "alt_p": 0.6932
+  }
+ ],
+ "who_egilim": [
+  {
+   "Seri": "Hükümet programları 1920–2016",
+   "Boyut": "Hizmet sunumu",
+   "n": 47,
+   "rho": -0.435,
+   "p": 0.0022,
+   "p_Holm": 0.0112
+  },
+  {
+   "Seri": "Hükümet programları 1920–2016",
+   "Boyut": "Sağlık insan gücü",
+   "n": 47,
+   "rho": 0.136,
+   "p": 0.3626,
+   "p_Holm": 1.0
+  },
+  {
+   "Seri": "Hükümet programları 1920–2016",
+   "Boyut": "Sağlık bilgi sistemleri",
+   "n": 47,
+   "rho": -0.098,
+   "p": 0.5129,
+   "p_Holm": 1.0
+  },
+  {
+   "Seri": "Hükümet programları 1920–2016",
+   "Boyut": "Tıbbi ürünler ve teknoloji",
+   "n": 47,
+   "rho": -0.094,
+   "p": 0.5307,
+   "p_Holm": 1.0
+  },
+  {
+   "Seri": "Hükümet programları 1920–2016",
+   "Boyut": "Sağlık finansmanı",
+   "n": 47,
+   "rho": 0.663,
+   "p": 0.0,
+   "p_Holm": 0.0
+  },
+  {
+   "Seri": "Hükümet programları 1920–2016",
+   "Boyut": "Liderlik ve yönetişim",
+   "n": 47,
+   "rho": 0.302,
+   "p": 0.0388,
+   "p_Holm": 0.1552
+  },
+  {
+   "Seri": "Kalkınma planları 1963–2028",
+   "Boyut": "Hizmet sunumu",
+   "n": 12,
+   "rho": -0.469,
+   "p": 0.1245,
+   "p_Holm": 0.2489
+  },
+  {
+   "Seri": "Kalkınma planları 1963–2028",
+   "Boyut": "Sağlık insan gücü",
+   "n": 12,
+   "rho": -0.685,
+   "p": 0.0139,
+   "p_Holm": 0.0834
+  },
+  {
+   "Seri": "Kalkınma planları 1963–2028",
+   "Boyut": "Sağlık bilgi sistemleri",
+   "n": 12,
+   "rho": 0.627,
+   "p": 0.0292,
+   "p_Holm": 0.1167
+  },
+  {
+   "Seri": "Kalkınma planları 1963–2028",
+   "Boyut": "Tıbbi ürünler ve teknoloji",
+   "n": 12,
+   "rho": 0.056,
+   "p": 0.8629,
+   "p_Holm": 0.8629
+  },
+  {
+   "Seri": "Kalkınma planları 1963–2028",
+   "Boyut": "Sağlık finansmanı",
+   "n": 12,
+   "rho": 0.566,
+   "p": 0.0548,
+   "p_Holm": 0.1645
+  },
+  {
+   "Seri": "Kalkınma planları 1963–2028",
+   "Boyut": "Liderlik ve yönetişim",
+   "n": 12,
+   "rho": 0.685,
+   "p": 0.0139,
+   "p_Holm": 0.0834
+  },
+  {
+   "Seri": "CB yıllık programları 2019–2026",
+   "Boyut": "Hizmet sunumu",
+   "n": 8,
+   "rho": 0.286,
+   "p": 0.4927,
+   "p_Holm": 1.0
+  },
+  {
+   "Seri": "CB yıllık programları 2019–2026",
+   "Boyut": "Sağlık insan gücü",
+   "n": 8,
+   "rho": -0.262,
+   "p": 0.5309,
+   "p_Holm": 1.0
+  },
+  {
+   "Seri": "CB yıllık programları 2019–2026",
+   "Boyut": "Sağlık bilgi sistemleri",
+   "n": 8,
+   "rho": 0.833,
+   "p": 0.0102,
+   "p_Holm": 0.0611
+  },
+  {
+   "Seri": "CB yıllık programları 2019–2026",
+   "Boyut": "Tıbbi ürünler ve teknoloji",
+   "n": 8,
+   "rho": -0.143,
+   "p": 0.7358,
+   "p_Holm": 1.0
+  },
+  {
+   "Seri": "CB yıllık programları 2019–2026",
+   "Boyut": "Sağlık finansmanı",
+   "n": 8,
+   "rho": -0.238,
+   "p": 0.5702,
+   "p_Holm": 1.0
+  },
+  {
+   "Seri": "CB yıllık programları 2019–2026",
+   "Boyut": "Liderlik ve yönetişim",
+   "n": 8,
+   "rho": 0.167,
+   "p": 0.6932,
+   "p_Holm": 1.0
+  }
+ ],
+ "who_HP_vs_YP": {
+  "gozlenen": 0.474,
+  "p_kesin": 0.0003,
+  "perm": 3003,
+  "boyut_MW_p": {
+   "Hizmet sunumu": 0.7466,
+   "Sağlık insan gücü": 0.0444,
+   "Sağlık bilgi sistemleri": 0.0016,
+   "Tıbbi ürünler ve teknoloji": 0.0023,
+   "Sağlık finansmanı": 0.0426,
+   "Liderlik ve yönetişim": 0.0593
+  },
+  "boyut_MW_p_Holm": {
+   "Hizmet sunumu": 0.7466,
+   "Sağlık insan gücü": 0.1705,
+   "Sağlık bilgi sistemleri": 0.0095,
+   "Tıbbi ürünler ve teknoloji": 0.0115,
+   "Sağlık finansmanı": 0.1705,
+   "Liderlik ve yönetişim": 0.1705
+  },
+  "HP_ort": {
+   "Hizmet sunumu": 56.5,
+   "Sağlık insan gücü": 6.5,
+   "Sağlık bilgi sistemleri": 0.0,
+   "Tıbbi ürünler ve teknoloji": 3.0,
+   "Sağlık finansmanı": 16.7,
+   "Liderlik ve yönetişim": 17.4
+  },
+  "YP_ort": {
+   "Hizmet sunumu": 47.3,
+   "Sağlık insan gücü": 14.8,
+   "Sağlık bilgi sistemleri": 3.2,
+   "Tıbbi ürünler ve teknoloji": 15.2,
+   "Sağlık finansmanı": 7.8,
+   "Liderlik ve yönetişim": 11.7
+  }
+ },
+ "who_varlik_uzunluk_rho": {
+  "Hizmet sunumu": 0.653,
+  "Sağlık insan gücü": 0.59,
+  "Sağlık bilgi sistemleri": 0.021,
+  "Tıbbi ürünler ve teknoloji": 0.373,
+  "Sağlık finansmanı": 0.745,
+  "Liderlik ve yönetişim": 0.638
+ },
+ "saglik_LL_ilk8": {
+  "1920-1923 Meclis Hükümetleri": [
+   [
+    "sıhhiye",
+    "sıhhiye; sıhhiyenin; sıhhiyeyi; sıhhiyecilik",
+    61.7
+   ],
+   [
+    "içtimaiye",
+    "içtimaiye; içtimai; içtimaiyemize; içtimaiyeyi",
+    39.3
+   ],
+   [
+    "vekaleti",
+    "vekaleti; vekaletinin",
+    26.4
+   ],
+   [
+    "memlekette",
+    "memlekette; memleketin; memleketimizde; memlekete",
+    13.5
+   ]
+  ],
+  "1923-1946 Tek Parti": [
+   [
+    "sıhhat",
+    "sıhhat; sıhhati; sıhhate; sıhhatine",
+    22.5
+   ],
+   [
+    "mücadele",
+    "mücadele; mücadeleye; mücadelelerimiz; mücadelelerin",
+    17.0
+   ],
+   [
+    "sıhhi",
+    "sıhhi",
+    12.2
+   ]
+  ],
+  "1946-1960 Çok Partili Dönem": [
+   [
+    "ehemmiyeti",
+    "ehemmiyeti; ehemmiyetle; ehemmiyet; ehemmiyetini",
+    20.1
+   ],
+   [
+    "vasıtadır",
+    "vasıtadır; vasıtalarımızı; vasıtalarımızın; vasıtaları",
+    11.2
+   ],
+   [
+    "edilmiş",
+    "edilmiş",
+    11.2
+   ]
+  ],
+  "1960-1980 Planlı Dönem": [
+   [
+    "ilaç",
+    "ilaç",
+    44.5
+   ],
+   [
+    "halkın",
+    "halkın",
+    21.4
+   ],
+   [
+    "sanayii",
+    "sanayii; sanayi; sanayiinin; sanayileşme",
+    17.2
+   ],
+   [
+    "tedavi",
+    "tedavi",
+    15.7
+   ],
+   [
+    "hammadde",
+    "hammadde; hammaddesi; hammaddeler",
+    13.3
+   ],
+   [
+    "kentler",
+    "kentler; kentlerde; kentlerin",
+    13.3
+   ],
+   [
+    "sağlığı",
+    "sağlığı; sağlığını; sağlığının; sağlığına",
+    13.2
+   ],
+   [
+    "öncelik",
+    "öncelik; öncelikle",
+    12.8
+   ]
+  ],
+  "1980-2002 Neoliberal Dönüşüm": [
+   [
+    "sağlık",
+    "sağlık; sağlıkta; sağlıklı; sağlıklarının",
+    17.1
+   ],
+   [
+    "finansman",
+    "finansman; finans; finansal; finansmanı",
+    16.2
+   ],
+   [
+    "sigortası",
+    "sigortası; sigortasına; sigorta; sigortalar",
+    15.6
+   ],
+   [
+    "formaliteden",
+    "formaliteden; formalite; formaliteler",
+    14.7
+   ],
+   [
+    "sistemi",
+    "sistemi; sistemine; sistem; sistemin",
+    12.6
+   ],
+   [
+    "kanunu",
+    "kanunu; kanununun; kanununa",
+    12.6
+   ],
+   [
+    "evi",
+    "evi",
+    12.2
+   ],
+   [
+    "geçilerek",
+    "geçilerek; geçilecektir; geçilecek",
+    12.2
+   ]
+  ],
+  "2002-2018 AK Parti Dönemi": [
+   [
+    "yüzde",
+    "yüzde",
+    45.7
+   ],
+   [
+    "hayata",
+    "hayata",
+    22.9
+   ],
+   [
+    "sağladık",
+    "sağladık; sağladığımız",
+    22.9
+   ],
+   [
+    "oranını",
+    "oranını",
+    19.1
+   ],
+   [
+    "hükumetimiz",
+    "hükumetimiz; hükumetlerinin; hükumet",
+    19.1
+   ],
+   [
+    "dönüşüm",
+    "dönüşüm",
+    19.1
+   ],
+   [
+    "başlattık",
+    "başlattık; başlattığımız; başlatmıştır; başlatmış",
+    19.1
+   ],
+   [
+    "altında",
+    "altında; altındaki",
+    18.6
+   ]
+  ]
+ }
+}

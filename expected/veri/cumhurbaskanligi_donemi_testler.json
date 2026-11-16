@@ -1,0 +1,24 @@
+{
+ "rho_Saglik_Payi_2019_2026": [
+  0.905,
+  0.002
+ ],
+ "rho_Saglik_Payi_ayiklanmis_2019_2026": [
+  0.881,
+  0.0039
+ ],
+ "tema_HP_vs_YP": {
+  "chi2": 74.0,
+  "df": 13,
+  "p": 1.4894562050978859e-10,
+  "CramerV": 0.122,
+  "spearman_sira": [
+   0.556,
+   0.0391
+  ]
+ },
+ "tema_YP_vs_Plan_sira": [
+  0.925,
+  0.0
+ ]
+}

@@ -1,0 +1,7 @@
+sources/*
+!sources/README.txt
+outputs/
+__pycache__/
+*.pyc
+*_ANAHTAR_*
+~$*

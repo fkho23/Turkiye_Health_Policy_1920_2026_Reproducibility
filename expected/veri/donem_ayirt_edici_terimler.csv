@@ -1,0 +1,117 @@
+﻿Donem,Kok,Ornek_Bicim,Donem_Frekans,Diger_Frekans,Donem_10bin,Diger_10bin,LL,p<0.001
+1920-1923 Meclis Hükümetleri,sıhhiy,sıhhiye,13,5,253.4,5.0,57.61,True
+1920-1923 Meclis Hükümetleri,içtima,içtimaiye,10,7,194.9,7.0,37.96,True
+1920-1923 Meclis Hükümetleri,vekale,vekaleti,5,1,97.5,1.0,24.84,True
+1920-1923 Meclis Hükümetleri,memlek,memleketin,6,10,117.0,10.1,16.01,True
+1920-1923 Meclis Hükümetleri,bugün,bugün,4,3,78.0,3.0,14.86,True
+1920-1923 Meclis Hükümetleri,ihtiya,ihtiyaç,5,35,97.5,35.2,3.52,False
+1923-1946 Tek Parti,sıhhat,sıhhat,7,10,153.5,10.0,21.71,True
+1923-1946 Tek Parti,mücade,mücadele,6,7,131.6,7.0,20.27,True
+1923-1946 Tek Parti,içtima,içtimaiye,6,11,131.6,11.0,16.49,True
+1923-1946 Tek Parti,sıhhiy,sıhhiye,5,13,109.6,13.0,11.21,True
+1923-1946 Tek Parti,sıhhi,sıhhi,4,9,87.7,9.0,9.81,False
+1923-1946 Tek Parti,çocuk,çocuk,5,17,109.6,17.0,9.26,False
+1923-1946 Tek Parti,işleri,işleri,5,18,109.6,18.0,8.84,False
+1923-1946 Tek Parti,teşkil,teşkil,5,25,109.6,25.0,6.52,False
+1923-1946 Tek Parti,hastal,hastalıklarla,4,25,87.7,25.0,4.02,False
+1923-1946 Tek Parti,ihtiya,ihtiyaç,4,36,87.7,36.0,2.26,False
+1946-1960 Çok Partili Dönem,vergis,vergisi,5,0,48.4,0.0,23.15,True
+1946-1960 Çok Partili Dönem,ehemmi,ehemmiyetle,6,2,58.1,2.1,19.2,True
+1946-1960 Çok Partili Dönem,bütçel,bütçelerinde,4,0,38.8,0.0,18.52,True
+1946-1960 Çok Partili Dönem,istihs,istihsal,6,3,58.1,3.2,16.95,True
+1946-1960 Çok Partili Dönem,edilmi,edilmiş,6,3,58.1,3.2,16.95,True
+1946-1960 Çok Partili Dönem,şimdid,şimdiden,4,1,38.8,1.1,13.73,True
+1946-1960 Çok Partili Dönem,vasıta,vasıta,6,6,58.1,6.4,12.4,True
+1946-1960 Çok Partili Dönem,dört,dört,4,2,38.8,2.1,11.3,True
+1946-1960 Çok Partili Dönem,ziraat,ziraat,4,2,38.8,2.1,11.3,True
+1946-1960 Çok Partili Dönem,işleri,işleri,8,15,77.5,15.9,10.44,False
+1946-1960 Çok Partili Dönem,hüküme,hükümetin,4,3,38.8,3.2,9.59,False
+1946-1960 Çok Partili Dönem,teşkil,teşkil,9,21,87.2,22.3,9.39,False
+1946-1960 Çok Partili Dönem,pek,pek,5,6,48.4,6.4,9.24,False
+1946-1960 Çok Partili Dönem,mahkem,mahkemeler,4,4,38.8,4.2,8.26,False
+1946-1960 Çok Partili Dönem,köy,köy,7,16,67.8,17.0,7.47,False
+1946-1960 Çok Partili Dönem,bulunu,bulunuyoruz,4,6,38.8,6.4,6.31,False
+1946-1960 Çok Partili Dönem,inşaat,inşaatına,4,6,38.8,6.4,6.31,False
+1946-1960 Çok Partili Dönem,getiri,getirilecektir,5,10,48.4,10.6,6.14,False
+1946-1960 Çok Partili Dönem,iktisa,iktisadi,5,11,48.4,11.7,5.57,False
+1946-1960 Çok Partili Dönem,memlek,memleketin,5,11,48.4,11.7,5.57,False
+1946-1960 Çok Partili Dönem,tasarı,tasarısı,4,7,38.8,7.4,5.56,False
+1946-1960 Çok Partili Dönem,sıhhat,sıhhat,5,12,48.4,12.7,5.05,False
+1946-1960 Çok Partili Dönem,elektr,elektrik,4,8,38.8,8.5,4.91,False
+1946-1960 Çok Partili Dönem,merkez,merkezleri,7,23,67.8,24.4,4.6,False
+1946-1960 Çok Partili Dönem,müesse,müesseselerinin,4,11,38.8,11.7,3.41,False
+1960-1980 Planlı Dönem,ilaç,ilaç,35,4,92.7,6.0,49.05,True
+1960-1980 Planlı Dönem,halkın,halkın,19,2,50.3,3.0,27.27,True
+1960-1980 Planlı Dönem,sanayi,sanayi,20,6,53.0,9.0,18.01,True
+1960-1980 Planlı Dönem,sağlığ,sağlığı,50,36,132.4,53.9,17.15,True
+1960-1980 Planlı Dönem,hekiml,hekimlik,25,12,66.2,18.0,15.03,True
+1960-1980 Planlı Dönem,tedavi,tedavi,19,7,50.3,10.5,14.67,True
+1960-1980 Planlı Dönem,olanak,olanaklarının,10,1,26.5,1.5,14.55,True
+1960-1980 Planlı Dönem,hammad,hammadde,7,0,18.5,0.0,14.25,True
+1960-1980 Planlı Dönem,kentle,kentler,7,0,18.5,0.0,14.25,True
+1960-1980 Planlı Dönem,hizmet,hizmetlerinden,72,67,190.6,100.4,14.15,True
+1960-1980 Planlı Dönem,afetle,afetler,6,0,15.9,0.0,12.22,True
+1960-1980 Planlı Dönem,yönelm,yönelmesi,6,0,15.9,0.0,12.22,True
+1960-1980 Planlı Dönem,bakımı,bakımından,13,4,34.4,6.0,11.5,True
+1960-1980 Planlı Dönem,mesken,mesken,8,1,21.2,1.5,10.91,True
+1960-1980 Planlı Dönem,önlenm,önlenmesi,8,1,21.2,1.5,10.91,True
+1960-1980 Planlı Dönem,kontro,kontrolü,11,3,29.1,4.5,10.54,False
+1960-1980 Planlı Dönem,kurulu,kuruluşları,23,14,60.9,21.0,10.3,False
+1960-1980 Planlı Dönem,koruyu,koruyucu,22,13,58.2,19.5,10.27,False
+1960-1980 Planlı Dönem,artışı,artışının,5,0,13.2,0.0,10.18,False
+1960-1980 Planlı Dönem,düzelt,düzeltilmesine,5,0,13.2,0.0,10.18,False
+1960-1980 Planlı Dönem,yoksun,yoksun,5,0,13.2,0.0,10.18,False
+1960-1980 Planlı Dönem,uygun,uygun,13,5,34.4,7.5,9.68,False
+1960-1980 Planlı Dönem,alacağ,alacağız,7,1,18.5,1.5,9.12,False
+1960-1980 Planlı Dönem,person,personeli,18,10,47.7,15.0,9.12,False
+1960-1980 Planlı Dönem,ayağın,ayağına,7,1,18.5,1.5,9.12,False
+1980-2002 Neoliberal Dönüşüm,sağlık,sağlık,152,238,530.5,313.7,24.41,True
+1980-2002 Neoliberal Dönüşüm,sistem,sistemi,28,20,97.7,26.4,20.09,True
+1980-2002 Neoliberal Dönüşüm,sahip,sahip,10,1,34.9,1.3,19.83,True
+1980-2002 Neoliberal Dönüşüm,sigort,sigortası,37,34,129.1,44.8,19.26,True
+1980-2002 Neoliberal Dönüşüm,formal,formaliteden,6,0,20.9,0.0,15.53,True
+1980-2002 Neoliberal Dönüşüm,sektör,sektöründe,9,2,31.4,2.6,14.15,True
+1980-2002 Neoliberal Dönüşüm,güveni,güvenilir,5,0,17.5,0.0,12.94,True
+1980-2002 Neoliberal Dönüşüm,biz,biz,5,0,17.5,0.0,12.94,True
+1980-2002 Neoliberal Dönüşüm,evi,evi,5,0,17.5,0.0,12.94,True
+1980-2002 Neoliberal Dönüşüm,geçile,geçilerek,5,0,17.5,0.0,12.94,True
+1980-2002 Neoliberal Dönüşüm,sayılı,sayılı,5,0,17.5,0.0,12.94,True
+1980-2002 Neoliberal Dönüşüm,ocağı,ocağı,7,1,24.4,1.3,12.73,True
+1980-2002 Neoliberal Dönüşüm,istihd,istihdam,8,2,27.9,2.6,11.98,True
+1980-2002 Neoliberal Dönüşüm,verile,verilecektir,16,11,55.8,14.5,11.97,True
+1980-2002 Neoliberal Dönüşüm,finans,finansman,9,3,31.4,4.0,11.72,True
+1980-2002 Neoliberal Dönüşüm,kurulm,kurulması,12,7,41.9,9.2,10.54,False
+1980-2002 Neoliberal Dönüşüm,yatırı,yatırımları,12,7,41.9,9.2,10.54,False
+1980-2002 Neoliberal Dönüşüm,kanunu,kanunu,15,11,52.4,14.5,10.45,False
+1980-2002 Neoliberal Dönüşüm,birbir,birbirlerini,6,1,20.9,1.3,10.43,False
+1980-2002 Neoliberal Dönüşüm,belirl,belirli,6,1,20.9,1.3,10.43,False
+1980-2002 Neoliberal Dönüşüm,ödeme,ödeme,6,1,20.9,1.3,10.43,False
+1980-2002 Neoliberal Dönüşüm,erişil,erişilebilir,4,0,14.0,0.0,10.35,False
+1980-2002 Neoliberal Dönüşüm,kimsen,kimsenin,4,0,14.0,0.0,10.35,False
+1980-2002 Neoliberal Dönüşüm,çıktık,çıktık,4,0,14.0,0.0,10.35,False
+1980-2002 Neoliberal Dönüşüm,uyum,uyum,4,0,14.0,0.0,10.35,False
+2002-2018 AK Parti Dönemi,hükume,hükumetimiz,12,0,66.3,0.0,42.09,True
+2002-2018 AK Parti Dönemi,yüzde,yüzde,15,2,82.9,2.3,41.05,True
+2002-2018 AK Parti Dönemi,hayata,hayata,8,0,44.2,0.0,28.06,True
+2002-2018 AK Parti Dönemi,başlat,başlattık,7,0,38.7,0.0,24.55,True
+2002-2018 AK Parti Dönemi,dönemi,döneminde,6,0,33.1,0.0,21.04,True
+2002-2018 AK Parti Dönemi,sağlad,sağladık,6,0,33.1,0.0,21.04,True
+2002-2018 AK Parti Dönemi,dönemd,dönemde,11,5,60.8,5.8,20.6,True
+2002-2018 AK Parti Dönemi,oranın,oranını,5,0,27.6,0.0,17.54,True
+2002-2018 AK Parti Dönemi,dönüşü,dönüşüm,5,0,27.6,0.0,17.54,True
+2002-2018 AK Parti Dönemi,insani,insani,5,0,27.6,0.0,17.54,True
+2002-2018 AK Parti Dönemi,başkan,başkan,10,6,55.2,6.9,16.18,True
+2002-2018 AK Parti Dönemi,harcam,harcamalarının,6,1,33.1,1.2,15.68,True
+2002-2018 AK Parti Dönemi,ulaşım,ulaşım,4,0,22.1,0.0,14.03,True
+2002-2018 AK Parti Dönemi,ulaşıl,ulaşılabilir,4,0,22.1,0.0,14.03,True
+2002-2018 AK Parti Dönemi,özürlü,özürlülerin,4,0,22.1,0.0,14.03,True
+2002-2018 AK Parti Dönemi,bine,bine,4,0,22.1,0.0,14.03,True
+2002-2018 AK Parti Dönemi,tamamı,tamamının,4,0,22.1,0.0,14.03,True
+2002-2018 AK Parti Dönemi,katego,kategorisinden,4,0,22.1,0.0,14.03,True
+2002-2018 AK Parti Dönemi,şeffaf,şeffaf,4,0,22.1,0.0,14.03,True
+2002-2018 AK Parti Dönemi,türkiy,türkiye,9,6,49.7,6.9,13.66,True
+2002-2018 AK Parti Dönemi,başarı,başarılar,7,3,38.7,3.5,13.47,True
+2002-2018 AK Parti Dönemi,turizm,turizm,10,8,55.2,9.3,13.38,True
+2002-2018 AK Parti Dönemi,bin,bin,6,2,33.1,2.3,12.81,True
+2002-2018 AK Parti Dönemi,teknol,teknoloji,6,2,33.1,2.3,12.81,True
+2002-2018 AK Parti Dönemi,altınd,altında,8,5,44.2,5.8,12.64,True

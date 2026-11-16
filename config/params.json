@@ -1,0 +1,38 @@
+{
+ "aciklama": "Analiz parametreleri. Değerler makaledeki (revizyon v5) sonuçları üreten değerlerdir; değiştirilirse sonuçlar değişebilir.",
+ "seeds": {
+  "on_dogrulama_ornek_1": 42,
+  "on_dogrulama_ornek_2": 7,
+  "bootstrap_donem_medyan": 42,
+  "revizyon": 2026,
+  "dogrulama_formu": 2026
+ },
+ "seed_aciklamalari": {
+  "on_dogrulama_ornek_1": "s03: random.seed ve 40 pozitif + 20 zor negatif paragraf ön doğrulama örneklemi (Tablo 2, aşama 1)",
+  "on_dogrulama_ornek_2": "s03: 40 pozitif paragraflık ikinci ön doğrulama örneklemi (Tablo 2, aşama 2)",
+  "bootstrap_donem_medyan": "s06: dönem medyanları için bootstrap %95 GA (Tablo 4)",
+  "revizyon": "s10: plan farkı bootstrap GA ve L-basıklık Monte Carlo null dağılımı (aynı üreteç, sırayla)",
+  "dogrulama_formu": "s12: kör formların örneklenmesi; değerlendirici 1 sırası seed+1, değerlendirici 2 sırası seed+2"
+ },
+ "bootstrap_donem_medyan_tekrar": 5000,
+ "bootstrap_plan_farki": 5000,
+ "monte_carlo_l_basiklik": 20000,
+ "alfa": 0.05,
+ "coklu_test_duzeltmesi": "Holm (aile: 14 tema; 6 DSÖ boyutu)",
+ "etki_buyuklugu": "epsilon^2 = H/(n-1)",
+ "permutasyon": "kesin (tüm olası etiket atamaları); istatistik: grup ortalama profilleri arasındaki mutlak farkların toplamı",
+ "kismi_korelasyon": "Spearman; kontrol değişkeni log(toplam kelime); rank kalıntıları; p: t dağılımı, df = n-3",
+ "saglik_olcutu": "sağlık cümlelerindeki kelime / toplam kelime x 100; sözcük = [^\\W\\d_]+",
+ "cumle_bolme": "(?<=[.!?;:])\\s+",
+ "ayirt_edici_terim": "6 karakterlik kök, en az 4 geçiş, log-likelihood (Rayson ve Garside, 2000), eşik LL > 10.83 (yalnızca sağlık cümleleri analizinde)",
+ "donemler": ["1920-1923 Meclis Hükümetleri", "1923-1946 Tek Parti (Hük. 3-14)", "1946-1960 Çok Partili Dönem (15-23)", "1960-1980 Planlı Dönem (24-43)", "1980-2002 Neoliberal Dönüşüm (44-57)", "2002-2018 AK Parti Dönemi (58-65)"],
+ "dso_birincil_eslestirme": "inventory/../code/s10_revizyon_analizleri.py içindeki MAP sözlüğü; çıktı: veri/revizyon/who_eslestirme_matrisi.csv",
+ "dso_alternatif_eslestirme": "Sosyal yardım ve dezavantajlı gruplar -> Sağlık finansmanı",
+ "metin_cikarimi": {
+  "hukumet_programlari": "pdftotext -layout -f <PDF_Sayfa_Bas> -l <PDF_Sayfa_Bit> <TBMM cildi veya tutanak>; konuşmacı/başlık ayıklama kuralları s01",
+  "plan_ve_yillik_program": "pdftotext <pdf> - (düzen korunmadan); 'õ' > 1000 ise õ->ı; satır sonu tireleri birleştirilir; paragraf = boş satırla ayrılan blok; <5 kelimelik paragraflar atılır",
+  "poppler_surumu_ozgun": "22.02.0"
+ },
+ "ocr": {"belge": "DEVPLAN-09", "dpi": 300, "renk": "gri", "dil": "tur", "motor": "Tesseract 4.1.1", "araç": "pdftoppm + tesseract, sayfa sayfa"},
+ "kapsam": {"olcut": "yürürlük yılı 2026 veya öncesi olan belgeler", "derleme_tarihleri": "2026-11-14 / 2026-11-15", "dislanan": "2027 Yılı Cumhurbaşkanlığı Yıllık Programı (RG 27.10.2026, 33413 mük.)"}
+}

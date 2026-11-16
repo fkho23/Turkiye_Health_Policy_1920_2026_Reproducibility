@@ -1,0 +1,180 @@
+{
+ "KW_Donem_6grup": {
+  "H": 7.245,
+  "p": 0.2031,
+  "epsilon2": 0.117,
+  "eta2_H": 0.039,
+  "n": 63,
+  "grup": 6
+ },
+ "KW_Donem_n3plus": {
+  "H": 3.502,
+  "p": 0.4776,
+  "epsilon2": 0.058,
+  "eta2_H": -0.009,
+  "n": 61,
+  "grup": 5
+ },
+ "Donem_medyan_bootstrap": {
+  "1923-1946 Tek Parti": {
+   "medyan": 1.44,
+   "GA95": [
+    0.0,
+    4.92
+   ],
+   "n": 12
+  },
+  "1946-1960 Çok Partili Dönem": {
+   "medyan": 2.82,
+   "GA95": [
+    0.0,
+    4.21
+   ],
+   "n": 9
+  },
+  "1960-1980 Planlı Dönem": {
+   "medyan": 3.07,
+   "GA95": [
+    2.61,
+    3.63
+   ],
+   "n": 19
+  },
+  "1980-2002 Neoliberal Dönüşüm": {
+   "medyan": 2.5,
+   "GA95": [
+    2.03,
+    3.59
+   ],
+   "n": 14
+  },
+  "2002-2018 AK Parti Dönemi": {
+   "medyan": 2.9,
+   "GA95": [
+    1.04,
+    3.51
+   ],
+   "n": 7
+  }
+ },
+ "Tema_Yil_Spearman_Holm": [
+  {
+   "Tema": "T05_Finansman_ve_saglik_sigortasi",
+   "rho": 0.5829,
+   "p": 0.0,
+   "p_Holm": 0.0,
+   "q_BH": 0.0
+  },
+  {
+   "Tema": "T06_Ozel_sektor_ve_piyasa",
+   "rho": 0.4754,
+   "p": 0.0001,
+   "p_Holm": 0.0011,
+   "q_BH": 0.0006
+  },
+  {
+   "Tema": "T12_Saglik_turizmi",
+   "rho": 0.4236,
+   "p": 0.0005,
+   "p_Holm": 0.0065,
+   "q_BH": 0.0025
+  },
+  {
+   "Tema": "T04_Birinci_basamak_sosyallestirme_kirsal",
+   "rho": 0.4095,
+   "p": 0.0009,
+   "p_Holm": 0.0095,
+   "q_BH": 0.003
+  },
+  {
+   "Tema": "T10_Reform_yonetisim_kalite",
+   "rho": 0.3828,
+   "p": 0.002,
+   "p_Holm": 0.0196,
+   "q_BH": 0.0055
+  },
+  {
+   "Tema": "T02_Tedavi_hizmetleri_ve_hastaneler",
+   "rho": 0.3678,
+   "p": 0.003,
+   "p_Holm": 0.0272,
+   "q_BH": 0.007
+  },
+  {
+   "Tema": "T03_Saglik_insan_gucu",
+   "rho": 0.358,
+   "p": 0.004,
+   "p_Holm": 0.0318,
+   "q_BH": 0.0079
+  },
+  {
+   "Tema": "T08_Ana_cocuk_sagligi_ve_nufus",
+   "rho": 0.2859,
+   "p": 0.0231,
+   "p_Holm": 0.1617,
+   "q_BH": 0.0404
+  },
+  {
+   "Tema": "T07_Ilac_saglik_sanayii_teknoloji",
+   "rho": 0.165,
+   "p": 0.1962,
+   "p_Holm": 1.0,
+   "q_BH": 0.3053
+  },
+  {
+   "Tema": "T14_Acil_afet_ve_ambulans",
+   "rho": 0.1095,
+   "p": 0.3927,
+   "p_Holm": 1.0,
+   "q_BH": 0.5498
+  },
+  {
+   "Tema": "T09_Sosyal_yardim_ve_dezavantajli_gruplar",
+   "rho": 0.0898,
+   "p": 0.4839,
+   "p_Holm": 1.0,
+   "q_BH": 0.6159
+  },
+  {
+   "Tema": "T13_Saglikli_yasam_ve_kronik_hastaliklar",
+   "rho": 0.0738,
+   "p": 0.5655,
+   "p_Holm": 1.0,
+   "q_BH": 0.6597
+  },
+  {
+   "Tema": "T01_Bulasici_hastalik_ve_koruyucu_saglik",
+   "rho": 0.0402,
+   "p": 0.7544,
+   "p_Holm": 1.0,
+   "q_BH": 0.7858
+  },
+  {
+   "Tema": "T11_Dijital_saglik_ve_bilgi_sistemleri",
+   "rho": -0.0349,
+   "p": 0.7858,
+   "p_Holm": 0.7858,
+   "q_BH": 0.7858
+  }
+ ],
+ "Kesintili_denge_basiklik": {
+  "tum": {
+   "n_degisim": 62,
+   "kurtosis_fisher_puan": 12.48,
+   "L_kurtosis_puan": 0.482,
+   "kurtosis_test_p": 0.0,
+   "L_kurtosis_normal_referans": 0.123,
+   "kurtosis_fisher_yuzde_degisim": 17.1,
+   "L_kurtosis_yuzde_degisim": 0.591
+  },
+  "500+": {
+   "n_degisim": 60,
+   "kurtosis_fisher_puan": 13.12,
+   "L_kurtosis_puan": 0.374,
+   "kurtosis_test_p": 0.0,
+   "L_kurtosis_normal_referans": 0.123,
+   "kurtosis_fisher_yuzde_degisim": 16.83,
+   "L_kurtosis_yuzde_degisim": 0.599
+  }
+ }
+}

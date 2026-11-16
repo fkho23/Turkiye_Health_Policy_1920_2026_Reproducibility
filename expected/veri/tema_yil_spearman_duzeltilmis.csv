@@ -1,0 +1,15 @@
+﻿Tema,rho,p,p_Holm,q_BH
+T05_Finansman_ve_saglik_sigortasi,0.5829,0.0,0.0,0.0
+T06_Ozel_sektor_ve_piyasa,0.4754,0.0001,0.0011,0.0006
+T12_Saglik_turizmi,0.4236,0.0005,0.0065,0.0025
+T04_Birinci_basamak_sosyallestirme_kirsal,0.4095,0.0009,0.0095,0.003
+T10_Reform_yonetisim_kalite,0.3828,0.002,0.0196,0.0055
+T02_Tedavi_hizmetleri_ve_hastaneler,0.3678,0.003,0.0272,0.007
+T03_Saglik_insan_gucu,0.358,0.004,0.0318,0.0079
+T08_Ana_cocuk_sagligi_ve_nufus,0.2859,0.0231,0.1617,0.0404
+T07_Ilac_saglik_sanayii_teknoloji,0.165,0.1962,1.0,0.3053
+T14_Acil_afet_ve_ambulans,0.1095,0.3927,1.0,0.5498
+T09_Sosyal_yardim_ve_dezavantajli_gruplar,0.0898,0.4839,1.0,0.6159
+T13_Saglikli_yasam_ve_kronik_hastaliklar,0.0738,0.5655,1.0,0.6597
+T01_Bulasici_hastalik_ve_koruyucu_saglik,0.0402,0.7544,1.0,0.7858
+T11_Dijital_saglik_ve_bilgi_sistemleri,-0.0349,0.7858,0.7858,0.7858

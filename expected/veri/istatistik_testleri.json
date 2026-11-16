@@ -1,0 +1,92 @@
+{
+ "KruskalWallis_Donem_SaglikPayi": {
+  "H": 7.244700795335529,
+  "p": 0.20306839085908027
+ },
+ "KruskalWallis_Tur_SaglikPayi(n>2 gruplar)": {
+  "H": 1.2370866163278549,
+  "p": 0.8719556155849602
+ },
+ "Spearman_Yil_SaglikPayi": {
+  "rho": -0.012194540970258032,
+  "p": 0.9244288725231206
+ },
+ "Spearman_Yil_ProgramUzunlugu": {
+  "rho": 0.6991202527614457,
+  "p": 1.8570434013078177e-10
+ },
+ "Spearman_Yil_SaglikKelime": {
+  "rho": 0.4307307839593803,
+  "p": 0.00042526690513276344
+ },
+ "Spearman_Uzunluk_SaglikPayi": {
+  "rho": 0.26003401228583783,
+  "p": 0.03957307694747483
+ },
+ "MannWhitney_Koalisyon_vs_TekParti": {
+  "U": 265.0,
+  "p": 0.38957694361437045,
+  "n_koal": 13,
+  "n_tek": 35,
+  "medyan_koal": 3.11,
+  "medyan_tek": 2.63
+ },
+ "Tema_Yil_Spearman": {
+  "Bulaşıcı hastalık ve koruyucu sağlık": {
+   "rho": 0.04,
+   "p": 0.7544
+  },
+  "Tedavi hizmetleri ve hastaneler": {
+   "rho": 0.368,
+   "p": 0.003
+  },
+  "Sağlık insan gücü": {
+   "rho": 0.358,
+   "p": 0.004
+  },
+  "Birinci basamak, sosyalleştirme, kırsal": {
+   "rho": 0.409,
+   "p": 0.0009
+  },
+  "Finansman ve sağlık sigortası": {
+   "rho": 0.583,
+   "p": 0.0
+  },
+  "Özel sektör ve piyasa": {
+   "rho": 0.475,
+   "p": 0.0001
+  },
+  "İlaç, sağlık sanayii, teknoloji": {
+   "rho": 0.165,
+   "p": 0.1962
+  },
+  "Ana-çocuk sağlığı ve nüfus": {
+   "rho": 0.286,
+   "p": 0.0231
+  },
+  "Sosyal yardım ve dezavantajlı gruplar": {
+   "rho": 0.09,
+   "p": 0.4839
+  },
+  "Reform, yönetişim, kalite": {
+   "rho": 0.383,
+   "p": 0.002
+  },
+  "Dijital sağlık ve bilgi sistemleri": {
+   "rho": -0.035,
+   "p": 0.7858
+  },
+  "Sağlık turizmi": {
+   "rho": 0.424,
+   "p": 0.0005
+  },
+  "Sağlıklı yaşam ve kronik hastalıklar": {
+   "rho": 0.074,
+   "p": 0.5655
+  },
+  "Acil, afet, ambulans": {
+   "rho": 0.11,
+   "p": 0.3927
+  }
+ }
+}

@@ -1,0 +1,182 @@
+{
+ "tum_programlar": {
+  "KW_Donem_SaglikPayi": {
+   "H": 3.502,
+   "p": 0.4776,
+   "n": 63,
+   "grup": 5
+  },
+  "KW_Donem_ParagrafPayi": {
+   "H": 3.631,
+   "p": 0.4582,
+   "n": 63,
+   "grup": 5
+  },
+  "KW_Donem_Terim1000": {
+   "H": 3.386,
+   "p": 0.4954,
+   "n": 63,
+   "grup": 5
+  },
+  "Spearman_Yil_SaglikPayi": {
+   "rho": -0.012,
+   "p": 0.9244,
+   "n": 63
+  },
+  "Spearman_Yil_Terim1000": {
+   "rho": 0.036,
+   "p": 0.7788,
+   "n": 63
+  },
+  "Spearman_Yil_ParagrafPayi": {
+   "rho": 0.036,
+   "p": 0.7778,
+   "n": 63
+  }
+ },
+ "500_kelime_ve_ustu": {
+  "KW_Donem_SaglikPayi": {
+   "H": 4.227,
+   "p": 0.3762,
+   "n": 61,
+   "grup": 5
+  },
+  "KW_Donem_ParagrafPayi": {
+   "H": 4.364,
+   "p": 0.359,
+   "n": 61,
+   "grup": 5
+  },
+  "KW_Donem_Terim1000": {
+   "H": 3.888,
+   "p": 0.4214,
+   "n": 61,
+   "grup": 5
+  },
+  "Spearman_Yil_SaglikPayi": {
+   "rho": -0.0,
+   "p": 0.9998,
+   "n": 61
+  },
+  "Spearman_Yil_Terim1000": {
+   "rho": 0.054,
+   "p": 0.6802,
+   "n": 61
+  },
+  "Spearman_Yil_ParagrafPayi": {
+   "rho": 0.055,
+   "p": 0.6751,
+   "n": 61
+  }
+ },
+ "1923_sonrasi_IVH_haric": {
+  "KW_Donem_SaglikPayi": {
+   "H": 3.502,
+   "p": 0.4776,
+   "n": 61,
+   "grup": 5
+  },
+  "KW_Donem_ParagrafPayi": {
+   "H": 3.631,
+   "p": 0.4582,
+   "n": 61,
+   "grup": 5
+  },
+  "KW_Donem_Terim1000": {
+   "H": 3.386,
+   "p": 0.4954,
+   "n": 61,
+   "grup": 5
+  },
+  "Spearman_Yil_SaglikPayi": {
+   "rho": 0.077,
+   "p": 0.5539,
+   "n": 61
+  },
+  "Spearman_Yil_Terim1000": {
+   "rho": 0.122,
+   "p": 0.3471,
+   "n": 61
+  },
+  "Spearman_Yil_ParagrafPayi": {
+   "rho": 0.142,
+   "p": 0.2765,
+   "n": 61
+  }
+ },
+ "saglik_icerigi_olmayan": [
+  {
+   "Hukumet_ID": "GOV-1927-05",
+   "Yil": 1927,
+   "Toplam_Kelime": 1022
+  },
+  {
+   "Hukumet_ID": "GOV-1935-08",
+   "Yil": 1935,
+   "Toplam_Kelime": 443
+  },
+  {
+   "Hukumet_ID": "GOV-1938-10",
+   "Yil": 1938,
+   "Toplam_Kelime": 765
+  },
+  {
+   "Hukumet_ID": "GOV-1939-12",
+   "Yil": 1939,
+   "Toplam_Kelime": 625
+  },
+  {
+   "Hukumet_ID": "GOV-1942-13",
+   "Yil": 1942,
+   "Toplam_Kelime": 2713
+  },
+  {
+   "Hukumet_ID": "GOV-1949-18",
+   "Yil": 1949,
+   "Toplam_Kelime": 1037
+  },
+  {
+   "Hukumet_ID": "GOV-1955-22",
+   "Yil": 1955,
+   "Toplam_Kelime": 1865
+  },
+  {
+   "Hukumet_ID": "GOV-1973-36",
+   "Yil": 1973,
+   "Toplam_Kelime": 2519
+  }
+ ],
+ "MW_1960_oncesi_vs_sonrasi_500+": {
+  "U": 363.5,
+  "p": 0.3949,
+  "medyan_once": 2.63,
+  "medyan_sonra": 2.82,
+  "n": [
+   21,
+   40
+  ]
+ },
+ "Kalkinma_planlari_Spearman_Yil_Pay": {
+  "rho": 0.818,
+  "p": 0.0011,
+  "n": 12
+ },
+ "Yillik_programlar_Spearman_Yil_Pay": {
+  "rho": 0.933,
+  "p": 0.0002,
+  "n": 9
+ },
+ "Yillik_programlar_Spearman_Yil_Terim1000": {
+  "rho": 0.917,
+  "p": 0.0005,
+  "n": 9
+ },
+ "Wilcoxon_Program_vs_KapsayanPlan": {
+  "W": 155.0,
+  "p": 0.01383,
+  "n": 34,
+  "medyan_program": 2.82,
+  "medyan_plan": 3.22,
+  "program_planin_altinda": 20
+ }
+}

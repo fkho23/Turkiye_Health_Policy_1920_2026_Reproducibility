@@ -1,0 +1,493 @@
+﻿Konum,Deger,Makale,Yeniden_uretilen,Durum
+Tablo 1,Hükümet programı belge,63,63,AYNI
+Tablo 1,Hükümet programı kelime,328619,328619,AYNI
+Tablo 1,Hükümet programı sağlık cümlesi,518,518,AYNI
+Tablo 1,Kalkınma planı belge,12,12,AYNI
+Tablo 1,Kalkınma planı kelime,1062724,1062724,AYNI
+Tablo 1,Kalkınma planı sağlık cümlesi,2580,2580,AYNI
+Tablo 1,Yıllık program belge,9,9,AYNI
+Tablo 1,Yıllık program kelime,1097108,1097108,AYNI
+Tablo 1,Yıllık program sağlık cümlesi,3582,3582,AYNI
+Tablo 1,Toplam belge,84,84,AYNI
+Tablo 1,Toplam kelime,2488451,2488451,AYNI
+Tablo 1,Toplam sağlık cümlesi,6680,6680,AYNI
+Tablo 1 notu,HP ham çıkarım kelime,332492,332492,AYNI
+Tablo 1 notu,2018 BK kelime,99489,99489,AYNI
+Tablo 1 notu,2019–2026 kelime,997619,997619,AYNI
+3.1,Yürütme birimi,72,72,AYNI
+3.1,Program sunan,63,63,AYNI
+Tablo 4,1920-1923 n,2,2,AYNI
+Tablo 4,1920-1923 ort. uzunluk,2708,2708.0,AYNI
+Tablo 4,1920-1923 havuz payı,8.07,8.07,AYNI
+Tablo 4,1920-1923 medyan,14.78,14.78,AYNI
+Tablo 4,1920-1923 terim/1000,6.23,6.23,AYNI
+Tablo 4,1920-1923 sağlıksız program,0,0,AYNI
+Tablo 4,1923-1946 n,12,12,AYNI
+Tablo 4,1923-1946 ort. uzunluk,1477,1477.0,AYNI
+Tablo 4,1923-1946 havuz payı,2.79,2.79,AYNI
+Tablo 4,1923-1946 medyan,1.44,1.44,AYNI
+Tablo 4,1923-1946 GA alt,0.0,0.0,AYNI
+Tablo 4,1923-1946 GA üst,4.92,4.92,AYNI
+Tablo 4,1923-1946 terim/1000,2.13,2.13,AYNI
+Tablo 4,1923-1946 sağlıksız program,5,5,AYNI
+Tablo 4,1946-1960 n,9,9,AYNI
+Tablo 4,1946-1960 ort. uzunluk,3067,3067.0,AYNI
+Tablo 4,1946-1960 havuz payı,2.96,2.96,AYNI
+Tablo 4,1946-1960 medyan,2.82,2.82,AYNI
+Tablo 4,1946-1960 GA alt,0.0,0.0,AYNI
+Tablo 4,1946-1960 GA üst,4.21,4.21,AYNI
+Tablo 4,1946-1960 terim/1000,1.49,1.49,AYNI
+Tablo 4,1946-1960 sağlıksız program,2,2,AYNI
+Tablo 4,1960-1980 n,19,19,AYNI
+Tablo 4,1960-1980 ort. uzunluk,6267,6267.0,AYNI
+Tablo 4,1960-1980 havuz payı,3.24,3.24,AYNI
+Tablo 4,1960-1980 medyan,3.07,3.07,AYNI
+Tablo 4,1960-1980 GA alt,2.61,2.61,AYNI
+Tablo 4,1960-1980 GA üst,3.63,3.63,AYNI
+Tablo 4,1960-1980 terim/1000,2.4,2.4,AYNI
+Tablo 4,1960-1980 sağlıksız program,1,1,AYNI
+Tablo 4,1980-2002 n,14,14,AYNI
+Tablo 4,1980-2002 ort. uzunluk,7427,7427.0,AYNI
+Tablo 4,1980-2002 havuz payı,2.77,2.77,AYNI
+Tablo 4,1980-2002 medyan,2.5,2.5,AYNI
+Tablo 4,1980-2002 GA alt,2.03,2.03,AYNI
+Tablo 4,1980-2002 GA üst,3.59,3.59,AYNI
+Tablo 4,1980-2002 terim/1000,2.13,2.13,AYNI
+Tablo 4,1980-2002 sağlıksız program,0,0,AYNI
+Tablo 4,2002-2018 n,7,7,AYNI
+Tablo 4,2002-2018 ort. uzunluk,7832,7832.0,AYNI
+Tablo 4,2002-2018 havuz payı,2.61,2.61,AYNI
+Tablo 4,2002-2018 medyan,2.9,2.9,AYNI
+Tablo 4,2002-2018 GA alt,1.04,1.04,AYNI
+Tablo 4,2002-2018 GA üst,3.51,3.51,AYNI
+Tablo 4,2002-2018 terim/1000,2.16,2.16,AYNI
+Tablo 4,2002-2018 sağlıksız program,0,0,AYNI
+4.1,KW 6 dönem H,7.24,7.245,AYNI (yuvarlama sınırı)
+4.1,KW 6 dönem p,0.203,0.2031,AYNI
+4.1,KW 6 dönem ε²,0.12,0.117,AYNI
+4.1,KW 5 dönem H,3.5,3.502,AYNI
+4.1,KW 5 dönem p,0.478,0.4776,AYNI
+4.1,KW 5 dönem ε²,0.06,0.058,AYNI
+4.1,yıl–pay ρ,-0.01,-0.01219454,AYNI
+4.1,yıl–pay p,0.92,0.92442887,AYNI
+4.1,1920 I. İVH payı,25.2,25.23,AYNI
+4.1,1925 payı,27.6,27.56,AYNI
+4.1,1925 kelime,127,127,AYNI
+4.1,sağlığa değinmeyen program,8,8,AYNI
+4.1,sağlığa değinmeyen programlar,"GOV-1927-05,1935-08,1938-10,1939-12,1942-13,1949-18,1955-22,1973-36","1927-05,1935-08,1938-10,1939-12,1942-13,1949-18,1955-22,1973-36",AYNI
+5.1,1946 sonrası program,49,49,AYNI
+5.1,1946 sonrası sağlıksız,3,3,AYNI
+4.2,yıl–uzunluk ρ,0.7,0.69912025,AYNI
+4.2,yıl–sağlık paragraf kelimesi ρ,0.43,0.43073078,AYNI
+4.2,uzunluk–pay ρ,0.26,0.26003401,AYNI
+4.2,uzunluk–pay p,0.04,0.03957308,AYNI
+4.3,tür KW H,1.24,1.23708662,AYNI
+4.3,tür KW p,0.87,0.87195562,AYNI
+4.3,MW U,265,265.0,AYNI
+4.3,MW p,0.39,0.38957694,AYNI
+4.3,koalisyon medyan,3.11,3.11,AYNI
+4.3,tek parti medyan,2.63,2.63,AYNI
+4.3,n koalisyon,13,13,AYNI
+4.3,n tek parti,35,35,AYNI
+4.4,L-basıklık tüm seri,0.48,0.482,AYNI
+4.4,tüm seri MC p,"<0,001",0.0,AYNI
+4.4,değişim sayısı,62,62,AYNI
+4.4,L-basıklık 1920/1925 hariç,0.28,0.276,AYNI
+4.4,1920/1925 hariç MC p,"<0,001",0.0004,AYNI
+4.4,L-basıklık 1946 sonrası,0.21,0.211,AYNI
+4.4,1946 sonrası MC p,0.035,0.0345,AYNI (yuvarlama sınırı)
+4.4,1946 sonrası D’Agostino p,0.15,0.1505,AYNI
+4.4,1946 sonrası en büyük değişim,5.3,5.29,AYNI
+4.4,1946 sonrası değişim sayısı,48,48,AYNI
+3.7,L-basıklık normal referansı,0.123,0.1233,AYNI
+4.4,en büyük 6 değişimin yılları 1923–1939,1923–1939,"[1927, 1923, 1925, 1939, 1939, 1924]",AYNI
+Tablo 5,satır 1 n,63,63,AYNI
+Tablo 5,satır 1 dönem,6,6,AYNI
+Tablo 5,satır 1 cümle p,0.203,0.2031,AYNI
+Tablo 5,satır 1 ε²,0.12,0.117,AYNI
+Tablo 5,satır 1 paragraf p,0.122,0.1223,AYNI
+Tablo 5,satır 1 terim p,0.238,0.2375,AYNI (yuvarlama sınırı)
+Tablo 5,satır 1 ρ,-0.01,-0.012,AYNI
+Tablo 5,satır 1 ρ p,0.92,0.9244,AYNI
+Tablo 5,satır 2 n,61,61,AYNI
+Tablo 5,satır 2 dönem,5,5,AYNI
+Tablo 5,satır 2 cümle p,0.478,0.4776,AYNI
+Tablo 5,satır 2 ε²,0.06,0.058,AYNI
+Tablo 5,satır 2 paragraf p,0.458,0.4582,AYNI
+Tablo 5,satır 2 terim p,0.495,0.4954,AYNI
+Tablo 5,satır 2 ρ,0.08,0.077,AYNI
+Tablo 5,satır 2 ρ p,0.55,0.5539,AYNI
+Tablo 5,satır 3 n,59,59,AYNI
+Tablo 5,satır 3 dönem,5,5,AYNI
+Tablo 5,satır 3 cümle p,0.376,0.3762,AYNI
+Tablo 5,satır 3 ε²,0.07,0.073,AYNI
+Tablo 5,satır 3 paragraf p,0.359,0.359,AYNI
+Tablo 5,satır 3 terim p,0.421,0.4214,AYNI
+Tablo 5,satır 3 ρ,0.09,0.094,AYNI
+Tablo 5,satır 3 ρ p,0.48,0.4781,AYNI
+4.5,plan ρ,0.82,0.818,AYNI
+4.5,plan p,0.001,0.0011,AYNI
+4.5,1. Plan payı,2.14,2.14,AYNI
+4.5,12. Plan payı,8.81,8.81,AYNI
+4.5,"1–6. Plan aralığı 2,1–3,3","2,1–3,3","[2.1, 3.3]",AYNI
+4.5,2018 BK payı,5.09,5.09,AYNI
+4.5,2019 payı,5.39,5.39,AYNI
+4.5,2026 payı,8.46,8.46,AYNI
+4.5,yıllık program ρ (n=9),0.93,0.933,AYNI
+4.5,yıllık program p,"<0,001",0.0002,AYNI
+4.5,plan düzeyi n,10,10,AYNI
+4.5,plan düzeyi W,13,13.0,AYNI
+4.5,plan düzeyi p,0.16,0.1602,AYNI
+4.5,medyan fark,-0.52,-0.52,AYNI
+4.5,GA alt,-2.67,-2.67,AYNI
+4.5,GA üst,0.29,0.29,AYNI
+4.5,program altında plan sayısı,6,6,AYNI
+4.5,"1–5. plan farkları −0,15…0,47","−0,15…0,47","[-0.15, 0.47]",AYNI
+4.5,"6–10. plan farkları −4,20…−0,89","−4,20…−0,89","[-4.2, -0.89]",AYNI
+4.5,34 eşleşme p,0.014,0.0138,AYNI
+4.5,34 eşleşmede program altında,20,20,AYNI
+4.6,koruyucu payı 1923-1946,25.9,25.9,AYNI
+4.6,koruyucu payı 1946-1960,25.6,25.6,AYNI
+4.6,koruyucu payı 1960-1980,12.7,12.7,AYNI
+4.6,koruyucu payı 1980-2002,3.1,3.1,AYNI
+4.6,koruyucu payı 2002-2018,3.7,3.7,AYNI
+4.6,finansman payı Tek Parti,0.0,0.0,AYNI
+4.6,finansman payı Neoliberal,28.7,28.7,AYNI
+4.6,finansman payı AKP,19.3,19.3,AYNI
+4.6,tedavi payı AKP,19.3,19.3,AYNI
+4.6,varlık Finansman  1923-1946,0,0.0,AYNI
+4.6,varlık Finansman  1960-1980,68,68.4,AYNI
+4.6,varlık Finansman  1980-2002,79,78.6,AYNI
+4.6,varlık Finansman  2002-2018,71,71.4,AYNI
+4.6,varlık Özel sektö 1923-1946,0,0.0,AYNI
+4.6,varlık Özel sektö 1960-1980,26,26.3,AYNI
+4.6,varlık Özel sektö 1980-2002,64,64.3,AYNI
+4.6,varlık Özel sektö 2002-2018,57,57.1,AYNI
+4.6,turizm varlık Neoliberal,29,28.6,AYNI
+4.6,turizm varlık AKP,43,42.9,AYNI
+4.6,Planlı dönem varlık Tedavi hizme,84,84.2,AYNI
+4.6,Planlı dönem varlık Sağlık insan,90,89.5,AYNI (yuvarlama sınırı)
+4.6,"Planlı dönem varlık İlaç, sağlık",74,73.7,AYNI
+4.6 / E1,varlık ρ Finansman ve s,0.58,0.583,AYNI
+4.6 / E1,"Holm<0,05 Finansman ve s","<0,05",0.0,AYNI
+4.6 / E1,"uzunluk denetimli Holm ≥0,05 Finansman ve s","≥0,05",1.0,AYNI
+4.6 / E1,varlık ρ Özel sektör ve,0.48,0.475,AYNI (yuvarlama sınırı)
+4.6 / E1,"Holm<0,05 Özel sektör ve","<0,05",0.0011,AYNI
+4.6 / E1,"uzunluk denetimli Holm ≥0,05 Özel sektör ve","≥0,05",0.5428,AYNI
+4.6 / E1,varlık ρ Sağlık turizmi,0.42,0.424,AYNI
+4.6 / E1,"Holm<0,05 Sağlık turizmi","<0,05",0.0065,AYNI
+4.6 / E1,"uzunluk denetimli Holm ≥0,05 Sağlık turizmi","≥0,05",0.4902,AYNI
+4.6 / E1,varlık ρ Birinci basama,0.41,0.409,AYNI
+4.6 / E1,"Holm<0,05 Birinci basama","<0,05",0.0095,AYNI
+4.6 / E1,"uzunluk denetimli Holm ≥0,05 Birinci basama","≥0,05",1.0,AYNI
+4.6 / E1,"varlık ρ Reform, yöneti",0.38,0.383,AYNI
+4.6 / E1,"Holm<0,05 Reform, yöneti","<0,05",0.0196,AYNI
+4.6 / E1,"uzunluk denetimli Holm ≥0,05 Reform, yöneti","≥0,05",1.0,AYNI
+4.6 / E1,varlık ρ Tedavi hizmetl,0.37,0.368,AYNI
+4.6 / E1,"Holm<0,05 Tedavi hizmetl","<0,05",0.0272,AYNI
+4.6 / E1,"uzunluk denetimli Holm ≥0,05 Tedavi hizmetl","≥0,05",1.0,AYNI
+4.6 / E1,varlık ρ Sağlık insan g,0.36,0.358,AYNI
+4.6 / E1,"Holm<0,05 Sağlık insan g","<0,05",0.0318,AYNI
+4.6 / E1,"uzunluk denetimli Holm ≥0,05 Sağlık insan g","≥0,05",1.0,AYNI
+4.6,Holm sonrası anlamlı tema sayısı (varlık),7,7,AYNI
+4.6,ana-çocuk ρ (düzeltme öncesi),0.29,0.286,AYNI
+4.6,uzunluk–varlık ρ finansman,0.75,0.745,AYNI (yuvarlama sınırı)
+4.6,uzunluk–varlık ρ tedavi,0.65,0.648,AYNI
+4.6 / E1,belge içi pay ρ Finansman ve s,0.66,0.663,AYNI
+4.6 / E1,"belge içi pay Holm<0,05 Finansman ve s","<0,05",0.0,AYNI
+4.6 / E1,belge içi pay ρ Sağlık turizmi,0.49,0.488,AYNI
+4.6 / E1,"belge içi pay Holm<0,05 Sağlık turizmi","<0,05",0.006,AYNI
+4.6 / E1,belge içi pay ρ Özel sektör ve,0.43,0.427,AYNI
+4.6 / E1,"belge içi pay Holm<0,05 Özel sektör ve","<0,05",0.0307,AYNI
+4.6 / E1,belge içi pay ρ Bulaşıcı hasta,-0.58,-0.58,AYNI
+4.6 / E1,"belge içi pay Holm<0,05 Bulaşıcı hasta","<0,05",0.0003,AYNI
+4.6,belge içi pay n,47,47,AYNI
+Tablo 6,1920-1923 sıhhiye,58,57.61,AYNI
+Tablo 6,1920-1923 içtimaiye,38,37.96,AYNI
+Tablo 6,1920-1923 vekaleti,25,24.84,AYNI
+Tablo 6,1920-1923 memleketin,16,16.01,AYNI
+Tablo 6,1920-1923 bugün,15,14.86,AYNI
+Tablo 6,1923-1946 sıhhat,22,21.71,AYNI
+Tablo 6,1923-1946 mücadele,20,20.27,AYNI
+Tablo 6,1923-1946 içtimaiye,16,16.49,AYNI
+Tablo 6,1923-1946 sıhhiye,11,11.21,AYNI
+Tablo 6,1946-1960 vergisi,23,23.15,AYNI
+Tablo 6,1946-1960 ehemmiyetle,19,19.2,AYNI
+Tablo 6,1946-1960 bütçelerinde,19,18.52,AYNI
+Tablo 6,1946-1960 istihsal,17,16.95,AYNI
+Tablo 6,1946-1960 edilmiş,17,16.95,AYNI
+Tablo 6,1946-1960 şimdiden,14,13.73,AYNI
+Tablo 6,1960-1980 ilaç,49,49.05,AYNI
+Tablo 6,1960-1980 halkın,27,27.27,AYNI
+Tablo 6,1960-1980 sanayi,18,18.01,AYNI
+Tablo 6,1960-1980 sağlığı,17,17.15,AYNI
+Tablo 6,1960-1980 hekimlik,15,15.03,AYNI
+Tablo 6,1960-1980 tedavi,15,14.67,AYNI
+Tablo 6,1980-2002 sağlık,24,24.41,AYNI
+Tablo 6,1980-2002 sistemi,20,20.09,AYNI
+Tablo 6,1980-2002 sahip,20,19.83,AYNI
+Tablo 6,1980-2002 sigortası,19,19.26,AYNI
+Tablo 6,1980-2002 formaliteden,16,15.53,AYNI
+Tablo 6,1980-2002 sektöründe,14,14.15,AYNI
+Tablo 6,2002-2018 hükumetimiz,42,42.09,AYNI
+Tablo 6,2002-2018 yüzde,41,41.05,AYNI
+Tablo 6,2002-2018 hayata,28,28.06,AYNI
+Tablo 6,2002-2018 başlattık,25,24.55,AYNI
+Tablo 6,2002-2018 döneminde,21,21.04,AYNI
+Tablo 6,2002-2018 sağladık,21,21.04,AYNI
+Tablo 7,PRES-2018-YP pay,5.09,5.09,AYNI
+Tablo 7,PRES-2018-YP ayıklanmış,3.79,3.79,AYNI
+Tablo 7,PRES-2018-YP makro salgın,0,0,AYNI
+Tablo 7,PRES-2018-YP koruyucu tema %,5.8,5.8,AYNI
+Tablo 7,PRES-2018-YP toplam kelime,99489,99489,AYNI
+Tablo 7,PRES-2019 pay,5.39,5.39,AYNI
+Tablo 7,PRES-2019 ayıklanmış,4.1,4.1,AYNI
+Tablo 7,PRES-2019 makro salgın,0,0,AYNI
+Tablo 7,PRES-2019 koruyucu tema %,4.2,4.2,AYNI
+Tablo 7,PRES-2019 toplam kelime,88763,88763,AYNI
+Tablo 7,PRES-2020 pay,5.56,5.56,AYNI
+Tablo 7,PRES-2020 ayıklanmış,4.62,4.62,AYNI
+Tablo 7,PRES-2020 makro salgın,0,0,AYNI
+Tablo 7,PRES-2020 koruyucu tema %,3.8,3.8,AYNI
+Tablo 7,PRES-2020 toplam kelime,126286,126286,AYNI
+Tablo 7,PRES-2021 pay,7.51,7.51,AYNI
+Tablo 7,PRES-2021 ayıklanmış,5.72,5.72,AYNI
+Tablo 7,PRES-2021 makro salgın,45,45,AYNI
+Tablo 7,PRES-2021 koruyucu tema %,28.4,28.4,AYNI
+Tablo 7,PRES-2021 toplam kelime,126401,126401,AYNI
+Tablo 7,PRES-2022 pay,7.32,7.32,AYNI
+Tablo 7,PRES-2022 ayıklanmış,5.43,5.43,AYNI
+Tablo 7,PRES-2022 makro salgın,27,27,AYNI
+Tablo 7,PRES-2022 koruyucu tema %,28.3,28.3,AYNI
+Tablo 7,PRES-2022 toplam kelime,115883,115883,AYNI
+Tablo 7,PRES-2023 pay,6.57,6.57,AYNI
+Tablo 7,PRES-2023 ayıklanmış,5.42,5.42,AYNI
+Tablo 7,PRES-2023 makro salgın,14,14,AYNI
+Tablo 7,PRES-2023 koruyucu tema %,17.4,17.4,AYNI
+Tablo 7,PRES-2023 toplam kelime,113805,113805,AYNI
+Tablo 7,PRES-2024 pay,7.67,7.67,AYNI
+Tablo 7,PRES-2024 ayıklanmış,5.88,5.88,AYNI
+Tablo 7,PRES-2024 makro salgın,12,12,AYNI
+Tablo 7,PRES-2024 koruyucu tema %,12.0,12.0,AYNI
+Tablo 7,PRES-2024 toplam kelime,150701,150701,AYNI
+Tablo 7,PRES-2025 pay,7.92,7.92,AYNI
+Tablo 7,PRES-2025 ayıklanmış,6.41,6.41,AYNI
+Tablo 7,PRES-2025 makro salgın,5,5,AYNI
+Tablo 7,PRES-2025 koruyucu tema %,8.8,8.8,AYNI
+Tablo 7,PRES-2025 toplam kelime,135468,135468,AYNI
+Tablo 7,PRES-2026 pay,8.46,8.46,AYNI
+Tablo 7,PRES-2026 ayıklanmış,6.32,6.32,AYNI
+Tablo 7,PRES-2026 makro salgın,5,5,AYNI
+Tablo 7,PRES-2026 koruyucu tema %,9.9,9.9,AYNI
+Tablo 7,PRES-2026 toplam kelime,140312,140312,AYNI
+4.8,YP 2019–2026 ρ,0.91,0.905,AYNI (yuvarlama sınırı)
+4.8,YP p,0.002,0.002,AYNI
+4.8,ayıklanmış ρ,0.88,0.881,AYNI
+4.8,ayıklanmış p,0.004,0.0039,AYNI
+4.8,65. Hükümet payı,2.9,2.9,AYNI
+5.4,64. Hükümet payı,0.14,0.14,AYNI
+4.8,χ²,74.0,74.0,AYNI
+4.8,df,13,13,AYNI
+4.8,Cramér V,0.12,0.122,AYNI
+4.8,χ² p,"<0,001",0.0,AYNI
+4.8,beklenen<5 hücre,6,6,AYNI
+4.8,en küçük beklenen,1.9,1.94,AYNI
+4.8,HP isabet,109,109,AYNI
+4.8,YP isabet,4823,4823,AYNI
+4.8,permütasyon sayısı,3003,3003,AYNI
+4.8,permütasyon p,"<0,001",0.0003,AYNI
+4.8,n HP,6,6,AYNI
+4.8,n YP,8,8,AYNI
+4.8,YP–plan sıra ρ,0.93,0.925,AYNI (yuvarlama sınırı)
+4.8,HP–YP sıra ρ (havuz),0.56,0.556,AYNI
+4.8,HP–YP p (havuz),0.04,0.0391,AYNI
+4.8,HP–YP sıra ρ (belge ort.),0.36,0.364,AYNI
+4.8,belge ort. p,0.2,0.2004,AYNI
+Tablo 8,"İlaç, sağlık s HP",4.6,4.6,AYNI
+Tablo 8,"İlaç, sağlık s YP",14.9,14.9,AYNI
+Tablo 8,"İlaç, sağlık s Plan",18.2,18.2,AYNI
+Tablo 8,Sağlık insan g HP,11.0,11.0,AYNI
+Tablo 8,Sağlık insan g YP,14.6,14.6,AYNI
+Tablo 8,Sağlık insan g Plan,10.5,10.5,AYNI
+Tablo 8,Bulaşıcı hasta HP,3.7,3.7,AYNI
+Tablo 8,Bulaşıcı hasta YP,14.5,14.5,AYNI
+Tablo 8,Bulaşıcı hasta Plan,18.0,18.0,AYNI
+Tablo 8,Tedavi hizmetl HP,19.3,19.3,AYNI
+Tablo 8,Tedavi hizmetl YP,10.6,10.6,AYNI
+Tablo 8,Tedavi hizmetl Plan,7.0,7.0,AYNI
+Tablo 8,"Reform, yöneti HP",14.7,14.7,AYNI
+Tablo 8,"Reform, yöneti YP",9.7,9.7,AYNI
+Tablo 8,"Reform, yöneti Plan",11.9,11.9,AYNI
+Tablo 8,Finansman ve s HP,19.3,19.3,AYNI
+Tablo 8,Finansman ve s YP,7.7,7.7,AYNI
+Tablo 8,Finansman ve s Plan,6.1,6.1,AYNI
+Tablo 8,Sosyal yardım  HP,11.0,11.0,AYNI
+Tablo 8,Sosyal yardım  YP,5.6,5.6,AYNI
+Tablo 8,Sosyal yardım  Plan,5.0,5.0,AYNI
+Tablo 8,Sağlıklı yaşam HP,0.0,0.0,AYNI
+Tablo 8,Sağlıklı yaşam YP,5.4,5.4,AYNI
+Tablo 8,Sağlıklı yaşam Plan,6.0,6.0,AYNI
+Tablo 8,Birinci basama HP,8.3,8.3,AYNI
+Tablo 8,Birinci basama YP,4.1,4.1,AYNI
+Tablo 8,Birinci basama Plan,3.1,3.1,AYNI
+Tablo 8,Ana-çocuk sağl HP,0.9,0.9,AYNI
+Tablo 8,Ana-çocuk sağl YP,3.4,3.4,AYNI
+Tablo 8,Ana-çocuk sağl Plan,1.4,1.4,AYNI
+Tablo 8,Dijital sağlık HP,0.0,0.0,AYNI
+Tablo 8,Dijital sağlık YP,3.4,3.4,AYNI
+Tablo 8,Dijital sağlık Plan,5.0,5.0,AYNI
+Tablo 8,"Acil, afet, am HP",0.0,0.0,AYNI
+Tablo 8,"Acil, afet, am YP",2.6,2.6,AYNI
+Tablo 8,"Acil, afet, am Plan",5.0,5.0,AYNI
+Tablo 8,Sağlık turizmi HP,3.7,3.7,AYNI
+Tablo 8,Sağlık turizmi YP,1.8,1.8,AYNI
+Tablo 8,Sağlık turizmi Plan,2.1,2.1,AYNI
+Tablo 8,Özel sektör ve HP,3.7,3.7,AYNI
+Tablo 8,Özel sektör ve YP,1.7,1.7,AYNI
+Tablo 8,Özel sektör ve Plan,0.7,0.7,AYNI
+Tablo 9,1920-1923 Meclis H n,2/2,2/2,AYNI
+Tablo 9,1920-1923 Meclis H Hizmet sunum,69.0,69.0,AYNI
+Tablo 9,1920-1923 Meclis H Sağlık insan,0.0,0.0,AYNI
+Tablo 9,1920-1923 Meclis H Sağlık bilgi,0.0,0.0,AYNI
+Tablo 9,1920-1923 Meclis H Tıbbi ürünle,16.7,16.7,AYNI
+Tablo 9,1920-1923 Meclis H Sağlık finan,0.0,0.0,AYNI
+Tablo 9,1920-1923 Meclis H Liderlik ve ,14.3,14.3,AYNI
+Tablo 9,1923-1946 Tek Part n,4/12,4/12,AYNI
+Tablo 9,1923-1946 Tek Part Hizmet sunum,72.4,72.4,AYNI
+Tablo 9,1923-1946 Tek Part Sağlık insan,4.4,4.4,AYNI
+Tablo 9,1923-1946 Tek Part Sağlık bilgi,0.0,0.0,AYNI
+Tablo 9,1923-1946 Tek Part Tıbbi ürünle,12.5,12.5,AYNI
+Tablo 9,1923-1946 Tek Part Sağlık finan,0.0,0.0,AYNI
+Tablo 9,1923-1946 Tek Part Liderlik ve ,10.7,10.7,AYNI
+Tablo 9,1946-1960 Çok Part n,5/9,5/9,AYNI
+Tablo 9,1946-1960 Çok Part Hizmet sunum,62.6,62.6,AYNI
+Tablo 9,1946-1960 Çok Part Sağlık insan,7.1,7.1,AYNI
+Tablo 9,1946-1960 Çok Part Sağlık bilgi,0.0,0.0,AYNI
+Tablo 9,1946-1960 Çok Part Tıbbi ürünle,1.2,1.2,AYNI
+Tablo 9,1946-1960 Çok Part Sağlık finan,4.0,4.0,AYNI
+Tablo 9,1946-1960 Çok Part Liderlik ve ,25.2,25.2,AYNI
+Tablo 9,1960-1980 Planlı D n,18/19,18/19,AYNI
+Tablo 9,1960-1980 Planlı D Hizmet sunum,52.7,52.7,AYNI
+Tablo 9,1960-1980 Planlı D Sağlık insan,17.2,17.2,AYNI
+Tablo 9,1960-1980 Planlı D Sağlık bilgi,0.5,0.5,AYNI
+Tablo 9,1960-1980 Planlı D Tıbbi ürünle,14.7,14.7,AYNI
+Tablo 9,1960-1980 Planlı D Sağlık finan,7.2,7.2,AYNI
+Tablo 9,1960-1980 Planlı D Liderlik ve ,7.8,7.8,AYNI
+Tablo 9,1980-2002 Neoliber n,12/14,12/14,AYNI
+Tablo 9,1980-2002 Neoliber Hizmet sunum,39.9,39.9,AYNI
+Tablo 9,1980-2002 Neoliber Sağlık insan,14.4,14.4,AYNI
+Tablo 9,1980-2002 Neoliber Sağlık bilgi,0.0,0.0,AYNI
+Tablo 9,1980-2002 Neoliber Tıbbi ürünle,3.2,3.2,AYNI
+Tablo 9,1980-2002 Neoliber Sağlık finan,27.3,27.3,AYNI
+Tablo 9,1980-2002 Neoliber Liderlik ve ,15.2,15.2,AYNI
+Tablo 9,2002-2018 AK Parti n,6/7,6/7,AYNI
+Tablo 9,2002-2018 AK Parti Hizmet sunum,56.5,56.5,AYNI
+Tablo 9,2002-2018 AK Parti Sağlık insan,6.5,6.5,AYNI
+Tablo 9,2002-2018 AK Parti Sağlık bilgi,0.0,0.0,AYNI
+Tablo 9,2002-2018 AK Parti Tıbbi ürünle,3.0,3.0,AYNI
+Tablo 9,2002-2018 AK Parti Sağlık finan,16.7,16.7,AYNI
+Tablo 9,2002-2018 AK Parti Liderlik ve ,17.4,17.4,AYNI
+Tablo 9,Planlar 1–3 (1963– n,3/3,3/3,AYNI
+Tablo 9,Planlar 1–3 (1963– Hizmet sunum,52.0,52.0,AYNI
+Tablo 9,Planlar 1–3 (1963– Sağlık insan,26.5,26.5,AYNI
+Tablo 9,Planlar 1–3 (1963– Sağlık bilgi,0.5,0.5,AYNI
+Tablo 9,Planlar 1–3 (1963– Tıbbi ürünle,12.7,12.7,AYNI
+Tablo 9,Planlar 1–3 (1963– Sağlık finan,3.8,3.8,AYNI
+Tablo 9,Planlar 1–3 (1963– Liderlik ve ,4.5,4.5,AYNI
+Tablo 9,Planlar 4–6 (1979– n,3/3,3/3,AYNI
+Tablo 9,Planlar 4–6 (1979– Hizmet sunum,52.3,52.3,AYNI
+Tablo 9,Planlar 4–6 (1979– Sağlık insan,18.8,18.8,AYNI
+Tablo 9,Planlar 4–6 (1979– Sağlık bilgi,1.4,1.4,AYNI
+Tablo 9,Planlar 4–6 (1979– Tıbbi ürünle,13.2,13.2,AYNI
+Tablo 9,Planlar 4–6 (1979– Sağlık finan,9.6,9.6,AYNI
+Tablo 9,Planlar 4–6 (1979– Liderlik ve ,4.7,4.7,AYNI
+Tablo 9,Planlar 7–9 (1996– n,3/3,3/3,AYNI
+Tablo 9,Planlar 7–9 (1996– Hizmet sunum,41.2,41.2,AYNI
+Tablo 9,Planlar 7–9 (1996– Sağlık insan,13.2,13.2,AYNI
+Tablo 9,Planlar 7–9 (1996– Sağlık bilgi,1.5,1.5,AYNI
+Tablo 9,Planlar 7–9 (1996– Tıbbi ürünle,5.6,5.6,AYNI
+Tablo 9,Planlar 7–9 (1996– Sağlık finan,21.4,21.4,AYNI
+Tablo 9,Planlar 7–9 (1996– Liderlik ve ,17.0,17.0,AYNI
+Tablo 9,Planlar 10–12 (201 n,3/3,3/3,AYNI
+Tablo 9,Planlar 10–12 (201 Hizmet sunum,43.4,43.4,AYNI
+Tablo 9,Planlar 10–12 (201 Sağlık insan,9.9,9.9,AYNI
+Tablo 9,Planlar 10–12 (201 Sağlık bilgi,3.1,3.1,AYNI
+Tablo 9,Planlar 10–12 (201 Tıbbi ürünle,18.4,18.4,AYNI
+Tablo 9,Planlar 10–12 (201 Sağlık finan,10.3,10.3,AYNI
+Tablo 9,Planlar 10–12 (201 Liderlik ve ,14.9,14.9,AYNI
+Tablo 9,Yıllık program 201 n,1/1,1/1,AYNI
+Tablo 9,Yıllık program 201 Hizmet sunum,43.2,43.2,AYNI
+Tablo 9,Yıllık program 201 Sağlık insan,14.4,14.4,AYNI
+Tablo 9,Yıllık program 201 Sağlık bilgi,2.4,2.4,AYNI
+Tablo 9,Yıllık program 201 Tıbbi ürünle,12.3,12.3,AYNI
+Tablo 9,Yıllık program 201 Sağlık finan,11.0,11.0,AYNI
+Tablo 9,Yıllık program 201 Liderlik ve ,16.8,16.8,AYNI
+Tablo 9,CB yıllık programl n,8/8,8/8,AYNI
+Tablo 9,CB yıllık programl Hizmet sunum,47.3,47.3,AYNI
+Tablo 9,CB yıllık programl Sağlık insan,14.8,14.8,AYNI
+Tablo 9,CB yıllık programl Sağlık bilgi,3.2,3.2,AYNI
+Tablo 9,CB yıllık programl Tıbbi ürünle,15.2,15.2,AYNI
+Tablo 9,CB yıllık programl Sağlık finan,7.8,7.8,AYNI
+Tablo 9,CB yıllık programl Liderlik ve ,11.7,11.7,AYNI
+4.9,HP eğilim n,47,47,AYNI
+4.9,HS ρ,-0.44,-0.435,AYNI (yuvarlama sınırı)
+4.9,HS Holm p,0.011,0.0112,AYNI
+4.9,FN ρ,0.66,0.663,AYNI
+4.9,FN Holm p,"<0,001",0.0,AYNI
+4.9,YO ρ,0.3,0.302,AYNI
+4.9,YO Holm p,0.155,0.1552,AYNI
+4.9,FN çoklu ρ,0.42,0.418,AYNI
+4.9,FN alternatif ρ,0.44,0.435,AYNI (yuvarlama sınırı)
+4.9,"FN sağlamlık p<0,01","<0,01",0.0034,AYNI
+4.9,HS alternatif ρ,-0.29,-0.292,AYNI
+4.9,HS alternatif p,0.047,0.0466,AYNI
+4.9,HS çoklu ρ,-0.12,-0.12,AYNI
+4.9,plan ρ Liderlik ve ,0.69,0.685,AYNI (yuvarlama sınırı)
+4.9,"plan p<0,05 Liderlik ve ","<0,05",0.0139,AYNI
+4.9,plan ρ Sağlık bilgi,0.63,0.627,AYNI
+4.9,"plan p<0,05 Sağlık bilgi","<0,05",0.0292,AYNI
+4.9,plan ρ Sağlık insan,-0.69,-0.685,AYNI (yuvarlama sınırı)
+4.9,"plan p<0,05 Sağlık insan","<0,05",0.0139,AYNI
+4.9,planlarda Holm sonrası anlamlı boyut,0,0,AYNI
+4.9,YP BS ρ,0.83,0.833,AYNI
+4.9,YP BS p,0.01,0.0102,AYNI
+4.9,YP BS Holm p,0.061,0.0611,AYNI
+4.9,HP–YP permütasyon p,"<0,001",0.0003,AYNI
+4.9,BS Holm p,0.01,0.0095,AYNI (yuvarlama sınırı)
+4.9,TU Holm p,0.012,0.0115,AYNI (yuvarlama sınırı)
+4.9,"FN ve İG Holm ≥0,05","≥0,05",0.1705,AYNI
+4.9,"FN ve İG düzeltme öncesi <0,05","<0,05",0.0444,AYNI
+4.9,HP ort Sağlık bilgi,0.0,0.0,AYNI
+4.9,YP ort Sağlık bilgi,3.2,3.2,AYNI
+4.9,HP ort Tıbbi ürünle,3.0,3.0,AYNI
+4.9,YP ort Tıbbi ürünle,15.2,15.2,AYNI
+4.9,HP ort Sağlık finan,16.7,16.7,AYNI
+4.9,YP ort Sağlık finan,7.8,7.8,AYNI
+4.9,HP ort Sağlık insan,6.5,6.5,AYNI
+4.9,YP ort Sağlık insan,14.8,14.8,AYNI
+4.9,"""şehir hastane"" HP2002-16",4,4,AYNI
+4.9,"""şehir hastane"" YP2018-26",47,47,AYNI
+4.9,"""dispanser"" PL<1996",22,22,AYNI
+4.9,"""geri ödeme"" PL1996+",11,11,AYNI
+4.9,"""geri ödeme"" YP2018-26",36,36,AYNI
+4.9,"""genel sağlık sigorta"" YP2018-26",56,56,AYNI
+4.9,"""akreditasyon"" PL1996+",7,7,AYNI
+4.9,"""akreditasyon"" YP2018-26",44,44,AYNI
+4.9,"""performans"" YP2018-26",42,42,AYNI
+4.9,"""memnuniyet"" YP2018-26",28,28,AYNI
+4.9,"""tıbbi cihaz"" PL1996+",58,58,AYNI
+4.9,"""tıbbi cihaz"" YP2018-26",155,155,AYNI
+4.9,"""dijital"" YP2018-26",74,74,AYNI
+4.9,"""bilişim"" YP2018-26",22,22,AYNI
+4.9,"""e-nabız"" YP2018-26",8,8,AYNI
+4.9,"""geri ödeme"" HP toplam",0,0,AYNI
+4.9,"""tıbbi cihaz"" HP toplam",0,0,AYNI
+4.9,"""akreditasyon"" HP toplam",0,0,AYNI
+4.9,"""akreditasyon"" PL<1996",0,0,AYNI
+3.6,sosyal yardım teması sosyal yardım,132,132,AYNI
+3.6,sosyal yardım teması yaşlı,126,126,AYNI
+3.6,sosyal yardım teması engelli,56,56,AYNI
+3.6,sosyal yardım teması muhtaç,43,43,AYNI
+3.6,sosyal yardım teması yoksul,37,37,AYNI
+3.4 / Tablo 2,ön doğrulama örneklemi dogrulama_orneklemi.csv arşivle aynı kayıtlar,aynı,True,AYNI
+3.4 / Tablo 2,ön doğrulama örneklemi dogrulama_orneklemi_2.csv arşivle aynı kayıtlar,aynı,True,AYNI

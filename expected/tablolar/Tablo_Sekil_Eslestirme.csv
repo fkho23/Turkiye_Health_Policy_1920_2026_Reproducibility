@@ -1,0 +1,27 @@
+﻿Makale_ogesi,Icerik,Kod,Veri_dosyasi,Uretilen_cikti,Cikti_mevcut
+Tablo 1,Korpus,s09_cumle_veri_seti.py → s14,veri/revizyon/belge_envanteri.csv,tablolar/Tablo_1_Korpus.csv,evet
+Tablo 2,Ön denetim (kesinlik),HESAPLAMALI DEĞİL,Örneklemler: s03 (seed 42/7) → veri/dogrulama_orneklemi*.csv; kararlar kayıtlı değil,—,—
+Tablo 3,Kod kitabı ve DSÖ eşleştirmesi,sozlukler.py; s10_revizyon_analizleri.py,veri/revizyon/who_eslestirme_matrisi.csv; veri/saglik_paragraflari.xlsx (Kod_Kitabi),tablolar/Tablo_3_DSO_eslestirme.csv,evet
+Tablo 4,Dönemlere göre sağlık payı,s03_analiz.py; s06_ek_testler.py,veri/donem_ozet.csv; veri/ek_testler.json,tablolar/Tablo_4_Donem_saglik_payi.csv,evet
+Tablo 5,"Sağlamlık (KW, Spearman)",s10_revizyon_analizleri.py,veri/revizyon/tablo5_duzeltilmis.csv,tablolar/Tablo_5_Saglamlik.csv,evet
+Tablo 6,Ayırt edici terimler,s03_analiz.py,veri/donem_ayirt_edici_terimler.csv,tablolar/Tablo_6_Ayirt_edici_terimler.csv,evet
+Tablo 7,Yıllık programlar 2018–2026,s07_cumhurbaskanligi_donemi.py,veri/cumhurbaskanligi_donemi_belgeler.csv,tablolar/Tablo_7_Yillik_programlar.csv,evet
+Tablo 8,Tema dağılımı HP–YP–Plan,s07_cumhurbaskanligi_donemi.py; s10 (permütasyon),veri/cumhurbaskanligi_donemi_tema_dagilimi.csv; veri/revizyon/revizyon_testleri.json,tablolar/Tablo_8_Tema_dagilimi.csv,evet
+Tablo 9,DSÖ yönetsel boyutları,s10_revizyon_analizleri.py,veri/revizyon/who_boyut_donem_tablosu.csv,tablolar/Tablo_9_DSO_boyutlari.csv,evet
+Ek Tablo E1,"Tema eğilimi, Holm, uzunluk",s10_revizyon_analizleri.py,veri/revizyon/tema_egilim_holm_uzunluk.csv,tablolar/Ek_Tablo_E1_Tema_egilim.csv,evet
+Ek Tablo E2,Plan düzeyi karşılaştırma,s05_saglamlik_testleri.py (eşleştirme); s10,veri/program_plan_eslestirme.csv; veri/revizyon/plan_duzeyi_karsilastirma.csv,tablolar/Ek_Tablo_E2_Plan_duzeyi.csv,evet
+Ek Tablo E3,Sağlık cümlelerinde ayırt edici terimler,s10_revizyon_analizleri.py,veri/revizyon/saglik_cumleleri_ayirt_edici_terimler.csv,tablolar/Ek_Tablo_E3_Saglik_LL.csv,evet
+Şekil 1,HP sağlık payı,s08_sekiller_1_4.py,veri/hukumet_saglik_metrikleri.csv; veri/donem_ozet.csv,sekiller/Sekil_1_hukumet_programlari_saglik_payi.png,evet
+Şekil 2,Uzunluk ve mutlak sağlık metni,s08_sekiller_1_4.py,veri/hukumet_saglik_metrikleri.csv,sekiller/Sekil_2_uzunluk_ve_mutlak_saglik.png,evet
+Şekil 3,Belge türlerine göre pay,s08_sekiller_1_4.py,veri/hukumet_saglik_metrikleri.csv; veri/karsilastirma_korpuslari_metrikleri.csv,sekiller/Sekil_3_belge_turleri_karsilastirma.png,evet
+Şekil 4,Dönem × tema ısı haritası,s08_sekiller_1_4.py,veri/donem_tema_varlik_yuzde.csv,sekiller/Sekil_4_donem_tema_isi_haritasi.png,evet
+Şekil 5,DSÖ boyutları ısı haritası,s11_who_sekil.py,veri/revizyon/who_boyut_donem_tablosu.csv,sekiller/Sekil_5_who_yonetsel_boyutlar.png,evet
+Metin 4.1–4.3,"KW, ε², Spearman, Mann-Whitney, bootstrap",s03_analiz.py; s06_ek_testler.py,veri/istatistik_testleri.json; veri/ek_testler.json,—,—
+Metin 4.4,"L-basıklık, Monte Carlo p",s10_revizyon_analizleri.py,veri/revizyon/l_basiklik.csv,—,—
+Metin 4.5,"Plan/yıllık program eğilimi, Wilcoxon",s05_saglamlik_testleri.py; s10,veri/saglamlik_testleri.json; veri/revizyon/revizyon_testleri.json,—,—
+Metin 4.6,"Tema payları, varlık, Holm, uzunluk",s03_analiz.py; s10,veri/donem_tema_pay_yuzde.csv; veri/donem_tema_varlik_yuzde.csv; veri/revizyon/tema_egilim_holm_uzunluk.csv,—,—
+Metin 4.8,"Yıllık program testleri, ki-kare, permütasyon",s07; s10,veri/cumhurbaskanligi_donemi_testler.json; veri/revizyon/revizyon_testleri.json,—,—
+Metin 4.9,"DSÖ eğilimleri, belge türü karşılaştırması",s10,veri/revizyon/who_boyut_egilim.csv; veri/revizyon/revizyon_testleri.json,—,—
+Metin 3.6 ve 4.9,Terim sıklıkları,s16_terim_sayimlari.py,veri/revizyon/terim_sayimlari_gruplar.csv; veri/revizyon/sosyal_yardim_terimleri.csv,—,—
+Doğrulama formu,"160 + 266 kayıt, iki kör form",s12_dogrulama_formlari.py,outputs/dogrulama/,—,—
+Uyum istatistikleri,"kappa, precision, recall, F1",s13_kodlayici_uyumu.py (insan değerlendirmesi sonrası),outputs/dogrulama/kodlayici_uyumu_sonuclari.json,—,—

@@ -1,0 +1,9 @@
+# Python 3.10 ile sınanmıştır (makale sonuçları: Python 3.10.12)
+pandas==2.3.3
+numpy==2.2.6
+scipy==1.15.3
+matplotlib==3.10.9
+openpyxl==3.1.5
+# Python dışı araçlar (sistem paketleri):
+#   poppler-utils 22.02.0 (pdftotext, pdfinfo, pdftoppm)  -> metin çıkarımı ve sayfa bulma
+#   tesseract-ocr 4.1.1 + tesseract-ocr-tur                 -> yalnızca --ocr calistir seçeneğinde

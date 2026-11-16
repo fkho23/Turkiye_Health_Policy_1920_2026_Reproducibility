@@ -1,0 +1,54 @@
+﻿Tema,Terim,HP<1980,HP1980-2001,HP2002-16,PL<1996,PL1996+,YP2018-26
+T10,teşkilat,1,0,0,1,17,22
+T10,reform,0,4,3,1,12,6
+T10,yeniden yapılan,0,1,0,0,13,2
+T10,verimlilik,0,0,0,0,6,14
+T10,performans,0,2,0,0,14,42
+T10,kalite,6,3,7,14,90,186
+T10,akreditasyon,0,0,0,0,7,44
+T10,hasta hak,0,0,0,0,6,4
+T10,memnuniyet,0,0,1,0,4,28
+T10,dönüşüm,0,0,5,0,22,52
+T10,koordinasyon,4,0,0,3,13,26
+T10,denetim,2,4,0,13,29,83
+T02,hastane,21,21,17,93,78,246
+T02,şehir hastane,0,0,4,1,3,47
+T02,yatak,14,1,3,88,36,156
+T02,tedavi,17,3,1,56,44,149
+T02,poliklinik,0,0,0,2,1,6
+T02,dispanser,2,2,0,22,0,1
+T07,ilaç,25,3,4,39,119,495
+T07,tıbbi cihaz,0,0,0,2,58,155
+T07,sağlık sanayi,0,0,0,1,0,1
+T07,biyoteknoloj,0,0,0,0,15,41
+T07,aşı üret,1,0,0,2,5,26
+T07,yerli,3,0,0,16,18,27
+T11,e-sağlık,0,0,0,0,0,0
+T11,bilgi sistem,0,0,0,0,7,15
+T11,elektronik,1,0,0,12,5,40
+T11,dijital,0,0,0,0,26,74
+T11,bilişim,0,0,0,0,6,22
+T11,e-nabız,0,0,0,0,0,8
+T11,veri taban,0,0,0,0,1,13
+T11,tele,2,0,0,2,8,15
+T05,sigorta,20,34,10,47,104,118
+T05,genel sağlık sigorta,4,2,5,1,22,56
+T05,yeşil kart,0,0,1,0,2,0
+T05,finansman,0,6,0,6,19,18
+T05,prim,0,7,2,2,11,27
+T05,geri ödeme,0,0,0,0,11,36
+T05,döner sermaye,0,0,0,2,6,15
+T05,katkı pay,0,0,0,0,0,0
+T03,hekim,32,8,7,106,90,376
+T03,hemşire,1,2,1,40,17,67
+T03,ebe,4,1,1,31,10,58
+T03,sağlık personel,13,6,1,72,23,55
+T03,uzman,1,0,0,10,11,51
+T03,tıp fakülte,2,1,0,8,10,6
+T03,insan gücü,0,3,0,2,14,7
+T06,özel sektör,0,1,1,6,12,61
+T06,kamu-özel,0,0,0,0,0,2
+T06,kamu özel,0,0,0,0,3,8
+T06,özel hastane,1,0,2,1,0,3
+T06,özelleştir,0,2,0,0,1,3
+T06,hizmet alım,0,1,0,0,0,6

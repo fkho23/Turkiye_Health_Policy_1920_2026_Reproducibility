@@ -1,0 +1,25 @@
+{
+ "title": "Türkiye'de Sağlık Politikası Belgeleri, 1920–2026: Tekrarlanabilirlik Paketi (Turkiye Health Policy 1920–2026 Reproducibility Package)",
+ "upload_type": "software",
+ "version": "1.0.0",
+ "description": "Code, parameters, source inventory (official URLs and SHA-256 hashes) and expected outputs that reproduce all computational analyses of the article 'Türkiye'de Sağlık Sisteminin Politika Belgelerine Yansıyan Kurumsal ve Yönetsel Dönüşümü (1920–2026): Hükümet Programları, Kalkınma Planları ve Yıllık Programların Nicel Metin Analizi'. The corpus comprises 84 documents (63 government programmes, 12 development plans, 9 annual programmes). Source PDFs are not redistributed; a download script retrieves them from official sites and verifies their hashes. run_all.py executes text extraction, OCR, dictionary-based health-sentence detection, 14-theme coding, WHO six-building-block mapping, statistical tests and figures, and compares 492 reported values with the article (492/492 reproduced). Blank blind forms for two independent human coders (160 + 266 records) and inter-coder agreement code are included; no human validation results are included because none has yet been carried out.",
+ "creators": [
+  {
+   "name": "fkho23"
+  }
+ ],
+ "license": "mit",
+ "access_right": "open",
+ "language": "tur",
+ "keywords": [
+  "health management",
+  "health policy",
+  "Turkey",
+  "government programmes",
+  "development plans",
+  "quantitative text analysis",
+  "WHO building blocks",
+  "reproducibility"
+ ],
+ "notes": "Code: MIT. Derived data, tables, figures and documentation: CC BY 4.0. Original policy documents are not included."
+}

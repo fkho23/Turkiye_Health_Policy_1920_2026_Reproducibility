@@ -1,4 +1,4 @@
-# Son tekrarlanabilirlik denetimi (16.11.2026; v1.1.0)
+# Son tekrarlanabilirlik denetimi (16.11.2026; v1.1.1)
 
 Denetim, paketin kaynak PDF'lerden başlayarak temiz bir çıktı klasörüne çalıştırılmasıyla yapılmıştır (Ubuntu 22.04, Python 3.10.12, poppler 22.02.0, tesseract 4.1.1). Korpus (84 belge), 14 tema ve altı DSÖ yapı taşı değiştirilmemiştir.
 
@@ -24,7 +24,7 @@ Denetim, paketin kaynak PDF'lerden başlayarak temiz bir çıktı klasörüne ç
 
 | Öğe | Durum | Gerekçe |
 |---|---|---|
-| Tablo 2 (ön denetim kesinlikleri) | **Hesaplamalı olarak yeniden üretilemez** | Ön denetim yapay zekâ destekli tek değerlendirici tarafından yapılmış, kayıt düzeyinde kararlar saklanmamıştır. Kararlar geriye dönük olarak oluşturulmamıştır. Örneklemler yeniden üretilebilir |
+| Tablo 2 (ön denetim kesinlikleri) | **Hesaplamalı olarak yeniden üretilemez** | Denetimler yapay zekâ destekli yürütülmüş, kayıt düzeyinde kararlar saklanmamıştır. Kararlar geriye dönük olarak oluşturulmamıştır. Örneklemler yeniden üretilebilir |
 | 9. Plan OCR metni | Baştan OCR ile bayt düzeyinde aynı değil | Özgün OCR'daki dil modelinin sürümü kaydedilmemiş. Yeniden OCR ile 492 değerin 483'ü aynı kalır; değişen 9 değer küçük ve hiçbir yorumu değiştirmiyor (`expected/ocr_duyarlilik/`) |
 | Kaynak PDF'ler ve tam metinler | Depoda yok | Açık yeniden dağıtım izni yok. Bağlantı ve SHA-256 verildi; kurumlar dosyayı değiştirirse `s00` bunu raporlar |
 | Şekil dosyaları (PNG/SVG) | Görsel olarak aynı, bayt düzeyinde karşılaştırılmadı | Matplotlib dosyaya zaman damgası ve yazı tipi önbelleği bilgisi yazar. Şekillerin dayandığı veriler aynıdır |
@@ -33,12 +33,6 @@ Denetim, paketin kaynak PDF'lerden başlayarak temiz bir çıktı klasörüne ç
 
 `s17_teknoloji_yenilik.py` makalenin v6 sürümündeki teknoloji ve yenilik analizini (bölüm 3.7, 4.10, Tablo 10, Şekil 6) üretir. Kategori sözlükleri ilk denemede genel sanayi ve bilim politikası cümlelerini de yakaladığı için (ön denetimde yaklaşık 17/32 uygun) sağlık çapası, tarım ve dizin süzgeçleri eklenmiştir. Son sürümün ön denetim kararları (36/40) kayıtlıdır. Onuncu Plan'da sağlık cümlesi sayısı düşük olduğundan bu planın teknoloji payı eksik ölçülmüş olabilir.
 
-## D. İnsan doğrulaması bekleyen adımlar
+## D. Doğrulamanın durumu
 
-Aşağıdakiler **yapılmamıştır**. Pakette bunlara ilişkin hiçbir sonuç yoktur ve uydurulmamıştır:
-
-1. İki bağımsız insan değerlendiricinin `Degerlendirici_1_Kor_Form.xlsx` ve `Degerlendirici_2_Kor_Form.xlsx` formlarını birbirinden habersiz doldurması (A: 160 kayıt sağlık tespiti; B: 266 kayıt tema ve DSÖ yapı taşı).
-2. Teknoloji ve yenilik kategorilerinin bağımsız insan doğrulaması (şu an yalnızca ön denetim vardır).
-3. `s13_kodlayici_uyumu.py` ile Cohen's κ, yüzde uyum, sözlüğün kesinlik/duyarlılık/F1 değerlerinin hesaplanması.
-4. Anlaşmazlıkların uzlaşı turu ve uzlaşı dosyasıyla sözlük performansının yeniden hesaplanması (`--uzlasi`).
-5. Bu sonuçlar elde edildiğinde makalenin 3.4 bölümünün ve Tablo 2'nin güncellenmesi ve paketin yeni sürümünün yayımlanması.
+Araştırmacı, sınıflandırma sonuçlarını ve tema eşleştirmelerini bizzat incelemiştir (manuel doğrulama; yazar beyanı). Bu inceleme tek araştırmacı tarafından yapılmıştır. Bağımsız ikinci bir kodlayıcı kullanılmamış, kodlayıcılar arası uyum hesaplanmamıştır; pakette bu yönde hiçbir sayısal değer yoktur. Kör formlar (`expected/dogrulama_formlari/`) ve `s13_kodlayici_uyumu.py`, bağımsız doğrulama yapmak isteyen araştırmacılar için sunulmuştur.

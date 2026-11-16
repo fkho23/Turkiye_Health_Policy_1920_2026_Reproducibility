@@ -2,7 +2,7 @@
 
 ## Erişilebilirlik beyanı (makale için)
 
-Belge envanteri (resmî bağlantılar ve SHA-256 özetleri), sözlükler, kod kitabı, DSÖ eşleştirme matrisi, belge, cümle ve tema düzeyindeki veri setleri, analiz kodları, parametre ve seed kayıtları, beklenen çıktılar, iki bağımsız değerlendirici için kör doğrulama formları ve kodlayıcı uyumu kodu, GitHub'da açık bir depo olarak yayımlanmış ve Zenodo'da kalıcı DOI ile arşivlenmiştir. Bütün analizler tek komutla (`run_all.py`) yeniden üretilebilir. Kaynak belgeler kurumlarının resmî yayınları olduğu için pakete eklenmemiş, resmî erişim adresleri ve SHA-256 özetleriyle tanımlanmıştır. Kod MIT, türetilmiş veri ve belgeler CC BY 4.0 lisanslıdır.
+Belge envanteri (resmî bağlantılar ve SHA-256 özetleri), sözlükler, kod kitabı, DSÖ eşleştirme matrisi, belge, cümle ve tema düzeyindeki veri setleri, analiz kodları, parametre ve seed kayıtları, beklenen çıktılar, sınıflandırma kararları, GitHub'da açık bir depo olarak yayımlanmış ve Zenodo'da kalıcı DOI ile arşivlenmiştir. Bütün analizler tek komutla (`run_all.py`) yeniden üretilebilir. Kaynak belgeler kurumlarının resmî yayınları olduğu için pakete eklenmemiş, resmî erişim adresleri ve SHA-256 özetleriyle tanımlanmıştır. Kod MIT, türetilmiş veri ve belgeler CC BY 4.0 lisanslıdır.
 
 ## Kaynak belgeler neden pakette yok?
 

@@ -1,4 +1,4 @@
-# Son tekrarlanabilirlik denetimi (16.11.2026)
+# Son tekrarlanabilirlik denetimi (16.11.2026; v1.1.0)
 
 Denetim, paketin kaynak PDF'lerden başlayarak temiz bir çıktı klasörüne çalıştırılmasıyla yapılmıştır (Ubuntu 22.04, Python 3.10.12, poppler 22.02.0, tesseract 4.1.1). Korpus (84 belge), 14 tema ve altı DSÖ yapı taşı değiştirilmemiştir.
 
@@ -8,7 +8,7 @@ Denetim, paketin kaynak PDF'lerden başlayarak temiz bir çıktı klasörüne ç
 |---|---|
 | 34 kaynak PDF'in SHA-256 doğrulaması | 34/34 özet tutuyor |
 | Hükümet programı metinlerinin özgün cilt sayfalarından çıkarımı | özgün analizdeki türetilmiş metinlerle bayt düzeyinde aynı |
-| Makaledeki sayısal değerler (Tablo 1, 3–9, Ek Tablo E1–E3, Şekil 1–5 verileri ve metindeki istatistikler) | **492/492** (14'ü yuvarlama sınırında; ara dosyalardaki 3–4 ondalıklı saklamadan kaynaklanır, yuvarlanmamış değerlerle tutarlıdır) |
+| Makaledeki sayısal değerler (v6: Tablo 1, 3–10, Ek Tablo E1–E3, Şekil 1–6 verileri ve metindeki istatistikler) | **572/572** (14'ü yuvarlama sınırında; ara dosyalardaki 3–4 ondalıklı saklamadan kaynaklanır, yuvarlanmamış değerlerle tutarlıdır) |
 | Arşivdeki 32 analiz veri dosyası (`veri/`, `veri/revizyon/`) | 30'u bayt düzeyinde, 2'si (`.csv.gz`, `.xlsx`) içerik düzeyinde aynı. Fark yalnızca dosya kapsayıcısının zaman damgası |
 | Ön doğrulama örneklemleri (`dogrulama_orneklemi.csv`, `dogrulama_orneklemi_2.csv`; seed 42 ve 7) | kayıtlar arşivle aynı |
 | Kesin permütasyon, bootstrap, Monte Carlo (sabit seed) | aynı değerler |
@@ -29,11 +29,16 @@ Denetim, paketin kaynak PDF'lerden başlayarak temiz bir çıktı klasörüne ç
 | Kaynak PDF'ler ve tam metinler | Depoda yok | Açık yeniden dağıtım izni yok. Bağlantı ve SHA-256 verildi; kurumlar dosyayı değiştirirse `s00` bunu raporlar |
 | Şekil dosyaları (PNG/SVG) | Görsel olarak aynı, bayt düzeyinde karşılaştırılmadı | Matplotlib dosyaya zaman damgası ve yazı tipi önbelleği bilgisi yazar. Şekillerin dayandığı veriler aynıdır |
 
+## C2. v1.1.0 eklemeleri
+
+`s17_teknoloji_yenilik.py` makalenin v6 sürümündeki teknoloji ve yenilik analizini (bölüm 3.7, 4.10, Tablo 10, Şekil 6) üretir. Kategori sözlükleri ilk denemede genel sanayi ve bilim politikası cümlelerini de yakaladığı için (ön denetimde yaklaşık 17/32 uygun) sağlık çapası, tarım ve dizin süzgeçleri eklenmiştir. Son sürümün ön denetim kararları (36/40) kayıtlıdır. Onuncu Plan'da sağlık cümlesi sayısı düşük olduğundan bu planın teknoloji payı eksik ölçülmüş olabilir.
+
 ## D. İnsan doğrulaması bekleyen adımlar
 
 Aşağıdakiler **yapılmamıştır**. Pakette bunlara ilişkin hiçbir sonuç yoktur ve uydurulmamıştır:
 
 1. İki bağımsız insan değerlendiricinin `Degerlendirici_1_Kor_Form.xlsx` ve `Degerlendirici_2_Kor_Form.xlsx` formlarını birbirinden habersiz doldurması (A: 160 kayıt sağlık tespiti; B: 266 kayıt tema ve DSÖ yapı taşı).
-2. `s13_kodlayici_uyumu.py` ile Cohen's κ, yüzde uyum, sözlüğün kesinlik/duyarlılık/F1 değerlerinin hesaplanması.
-3. Anlaşmazlıkların uzlaşı turu ve uzlaşı dosyasıyla sözlük performansının yeniden hesaplanması (`--uzlasi`).
-4. Bu sonuçlar elde edildiğinde makalenin 3.4 bölümünün ve Tablo 2'nin güncellenmesi ve paketin yeni sürümünün (v1.1.0) yayımlanması.
+2. Teknoloji ve yenilik kategorilerinin bağımsız insan doğrulaması (şu an yalnızca ön denetim vardır).
+3. `s13_kodlayici_uyumu.py` ile Cohen's κ, yüzde uyum, sözlüğün kesinlik/duyarlılık/F1 değerlerinin hesaplanması.
+4. Anlaşmazlıkların uzlaşı turu ve uzlaşı dosyasıyla sözlük performansının yeniden hesaplanması (`--uzlasi`).
+5. Bu sonuçlar elde edildiğinde makalenin 3.4 bölümünün ve Tablo 2'nin güncellenmesi ve paketin yeni sürümünün yayımlanması.

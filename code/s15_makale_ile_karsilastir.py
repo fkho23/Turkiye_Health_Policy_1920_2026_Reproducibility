@@ -1,4 +1,4 @@
-"""s15 — Yeniden üretilen sonuçların makaledeki (revizyon v5) değerlerle karşılaştırılması.
+"""s15 — Yeniden üretilen sonuçların makaledeki (makale v6) değerlerle karşılaştırılması.
 Kural: makale değeri, yeniden üretilen değerin makaledeki ondalık basamağa yuvarlanmış hâliyle karşılaştırılır.
 '<0,001' gibi eşik ifadeleri eşik koşuluyla sınanır. Ayrıca ön doğrulama örneklemlerinin (seed 42/7) arşivdeki
 örneklemlerle aynı kayıtları içerip içermediği denetlenir.
@@ -71,7 +71,6 @@ chk('4.1', '1925 kelime', 127, lambda: g('GOV-1925-04')['Toplam_Kelime'])
 chk('4.1', 'sağlığa değinmeyen program', 8, lambda: int((H['Saglik_Payi_%'] == 0).sum()))
 chk('4.1', 'sağlığa değinmeyen programlar', 'GOV-1927-05,1935-08,1938-10,1939-12,1942-13,1949-18,1955-22,1973-36', lambda: ','.join(H[H['Saglik_Payi_%'] == 0].Hukumet_ID.str[4:]),
     kosul=lambda v: v == '1927-05,1935-08,1938-10,1939-12,1942-13,1949-18,1955-22,1973-36')
-chk('5.1', '1946 sonrası program', 49, lambda: int((H.Yil >= 1946).sum())); chk('5.1', '1946 sonrası sağlıksız', 3, lambda: int(((H.Yil >= 1946) & (H['Saglik_Payi_%'] == 0)).sum()))
 chk('4.2', 'yıl–uzunluk ρ', 0.70, lambda: IT['Spearman_Yil_ProgramUzunlugu']['rho'], 2); chk('4.2', 'yıl–sağlık paragraf kelimesi ρ', 0.43, lambda: IT['Spearman_Yil_SaglikKelime']['rho'], 2)
 chk('4.2', 'uzunluk–pay ρ', 0.26, lambda: IT['Spearman_Uzunluk_SaglikPayi']['rho'], 2); chk('4.2', 'uzunluk–pay p', 0.040, lambda: IT['Spearman_Uzunluk_SaglikPayi']['p'], 3)
 chk('4.3', 'tür KW H', 1.24, lambda: IT['KruskalWallis_Tur_SaglikPayi(n>2 gruplar)']['H'], 2); chk('4.3', 'tür KW p', 0.87, lambda: IT['KruskalWallis_Tur_SaglikPayi(n>2 gruplar)']['p'], 2)
@@ -185,13 +184,38 @@ for b, a, c in [('Sağlık bilgi sistemleri', 0.0, 3.2), ('Tıbbi ürünler ve t
     chk('4.9', f'HP ort {b[:12]}', a, lambda b=b: HY['HP_ort'][b], 1); chk('4.9', f'YP ort {b[:12]}', c, lambda b=b: HY['YP_ort'][b], 1)
 # terim sayımları
 for t, grp, v in [('şehir hastane', 'HP2002-16', 4), ('şehir hastane', 'YP2018-26', 47), ('dispanser', 'PL<1996', 22), ('geri ödeme', 'PL1996+', 11), ('geri ödeme', 'YP2018-26', 36),
-                  ('genel sağlık sigorta', 'YP2018-26', 56), ('akreditasyon', 'PL1996+', 7), ('akreditasyon', 'YP2018-26', 44), ('performans', 'YP2018-26', 42), ('memnuniyet', 'YP2018-26', 28),
-                  ('tıbbi cihaz', 'PL1996+', 58), ('tıbbi cihaz', 'YP2018-26', 155), ('dijital', 'YP2018-26', 74), ('bilişim', 'YP2018-26', 22), ('e-nabız', 'YP2018-26', 8)]:
+                  ('genel sağlık sigorta', 'YP2018-26', 56), ('akreditasyon', 'PL1996+', 7), ('akreditasyon', 'YP2018-26', 44), ('performans', 'YP2018-26', 42), ('memnuniyet', 'YP2018-26', 28)]:
     chk('4.9', f'"{t}" {grp}', v, lambda t=t, grp=grp: TS.loc[t, grp])
-for t in ['geri ödeme', 'tıbbi cihaz', 'akreditasyon']:
+for t in ['geri ödeme', 'akreditasyon']:
     chk('4.9', f'"{t}" HP toplam', 0, lambda t=t: TS.loc[t, ['HP<1980', 'HP1980-2001', 'HP2002-16']].sum())
 chk('4.9', '"akreditasyon" PL<1996', 0, lambda: TS.loc['akreditasyon', 'PL<1996'])
 for p, v in [(r'\bsosyal yardım', 132), (r'\byaşlı', 126), (r'\bengelli', 56), (r'\bmuhtaç', 43), (r'\byoksul', 37)]: chk('3.6', f'sosyal yardım teması {p[2:]}', v, lambda p=p: SY.loc[p, 'Isabet'])
+# ---- Tablo 10, bölüm 3.7 ve 4.10 (s17; makale v6)
+TG = C(f'{RV}/teknoloji_yenilik_gruplar.csv').set_index('Grup'); TE = C(f'{RV}/teknoloji_yenilik_egilim.csv'); TI = C(f'{RV}/teknoloji_yenilik_ilk_yil.csv')
+KK_ = ['K1_Yerli_uretim_ve_saglik_sanayii', 'K2_Tibbi_cihaz_ve_saglik_teknolojisi', 'K3_Bilgi_sistemleri_ve_dijital_saglik', 'K4_ArGe_yenilik_ve_ticarilestirme', 'Herhangi']
+T10 = {'1 HP 1920–1959': (16, 72, 0.0, 0.0, 0.0, 0.0, 0.0), '2 HP 1960–1979': (18, 202, 7.4, 0.5, 0.0, 0.0, 7.9), '3 HP 1980–2001': (14, 156, 0.0, 0.6, 0.0, 0.6, 1.3),
+       '4 HP 2002–2016': (7, 88, 0.0, 2.3, 0.0, 0.0, 2.3), '5 Plan 1–3 (1963–1977)': (3, 934, 4.3, 0.9, 0.0, 0.1, 5.2), '6 Plan 4–6 (1979–1994)': (3, 429, 3.5, 3.5, 0.0, 0.5, 7.0),
+       '7 Plan 7–9 (1996–2013)': (3, 580, 1.4, 2.2, 1.4, 1.6, 5.7), '8 Plan 10–12 (2014–2028)': (3, 637, 3.6, 13.7, 3.3, 3.6, 17.4), '9 Yıllık program 2018–2026': (9, 3582, 2.5, 7.5, 2.4, 2.0, 11.2)}
+for g, v in T10.items():
+    chk('Tablo 10', f'{g} belge', v[0], lambda g=g: TG.loc[g, 'Belge']); chk('Tablo 10', f'{g} sağlık cümlesi', v[1], lambda g=g: TG.loc[g, 'Saglik_cumlesi'])
+    for k, x in zip(KK_, v[2:]): chk('Tablo 10', f'{g} {k[:14]}', x, lambda g=g, k=k: TG.loc[g, k + '_%'], 1)
+ilk = lambda tur, k: TI[(TI.Belge_turu == tur) & (TI.Kategori == k)].iloc[0]
+for tur, k, y in [('Kalkınma planı', KK_[1], 1963), ('Kalkınma planı', KK_[3], 1973), ('Kalkınma planı', KK_[2], 1996), ('Hükümet programı', KK_[1], 1977), ('Hükümet programı', KK_[3], 1993)]:
+    chk('4.10', f'ilk yıl {tur[:6]} {k[:14]}', y, lambda tur=tur, k=k: ilk(tur, k).Ilk_yil)
+chk('4.10', 'HP tıbbi cihaz cümle', 4, lambda: ilk('Hükümet programı', KK_[1]).Cumle_sayisi); chk('4.10', 'HP Ar-Ge cümle', 1, lambda: ilk('Hükümet programı', KK_[3]).Cumle_sayisi)
+chk('4.10', 'HP bilgi sistemleri cümle', 0, lambda: ilk('Hükümet programı', KK_[2]).Cumle_sayisi)
+te = lambda aile, k, c: TE[TE.Aile.str.startswith(aile) & (TE.Olcu == k)].iloc[0][c]
+for k, rho in [(KK_[1], 0.75), (KK_[2], 0.74), (KK_[3], 0.71)]:
+    chk('4.10', f'plan ρ {k[:14]}', rho, lambda k=k: te('Kalkınma', k, 'Istatistik'), 2); chk('4.10', f'plan Holm<0,05 {k[:14]}', '<0,05', lambda k=k: te('Kalkınma', k, 'p_Holm'), kosul=lt(0.05))
+chk('4.10', 'plan ρ yerli üretim', -0.39, lambda: te('Kalkınma', KK_[0], 'Istatistik'), 2); chk('4.10', 'plan p yerli üretim', 0.21, lambda: te('Kalkınma', KK_[0], 'p'), 2)
+chk('4.10', 'HP Holm sonrası anlamlı kategori', 0, lambda: int((TE[TE.Aile.str.startswith('Hükümet')].p_Holm < 0.05).sum()))
+chk('4.10', 'HP 2002–16 ort. herhangi', 2.3, lambda: te('HP 2002', 'Herhangi', 'Ortalama_HP'), 1); chk('4.10', 'YP ort. herhangi', 10.8, lambda: te('HP 2002', 'Herhangi', 'Ortalama_YP'), 1)
+chk('4.10', 'HP–YP Holm p herhangi', 0.008, lambda: te('HP 2002', 'Herhangi', 'p_Holm'), 3)
+chk('4.10', 'HP–YP dört kategori Holm ≤ 0,03', '≤0,03', lambda: max(te('HP 2002', k, 'p_Holm') for k in KK_[:4]), kosul=lambda v: v <= 0.03)
+chk('4.10', 'YP bilgi sistemleri ρ', 0.93, lambda: te('Yıllık', KK_[2], 'Istatistik'), 2); chk('4.10', 'YP bilgi sistemleri Holm p', 0.004, lambda: te('Yıllık', KK_[2], 'p_Holm'), 3)
+OD = pd.read_csv(PKG / 'validation' / 'teknoloji_yenilik' / 'teknoloji_yenilik_on_denetim_kararlari.csv', encoding='utf-8-sig')
+chk('3.7', 'ön denetim uygun / toplam', '36/40', lambda: f"{int(OD.On_denetim_karari.sum())}/{len(OD)}", kosul=lambda v: v == '36/40')
+chk('3.7', 'ön denetim örnekleri yeniden üretilen örnekle aynı', 'aynı', lambda: list(OD.Cumle) == list(C(f'{RV}/teknoloji_yenilik_ornek_cumleler.csv').Cumle), kosul=lambda v: v is True)
 # ---- ön doğrulama örneklemleri arşivle aynı mı
 AR = PKG / 'validation' / 'on_dogrulama_arsivi'
 for f in ['dogrulama_orneklemi.csv', 'dogrulama_orneklemi_2.csv']:

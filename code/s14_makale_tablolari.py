@@ -22,6 +22,7 @@ T['Tablo_7_Yillik_programlar'] = pd.read_csv(f'{V}/cumhurbaskanligi_donemi_belge
 T['Tablo_8_Tema_dagilimi'] = pd.read_csv(f'{V}/cumhurbaskanligi_donemi_tema_dagilimi.csv').sort_values('YP_2019_2026', ascending=False)
 W = pd.read_csv(f'{RV}/who_boyut_donem_tablosu.csv')
 T['Tablo_9_DSO_boyutlari'] = W[['Grup', 'Belge', 'Tema_isabeti_olan_belge'] + [c for c in W.columns if c.endswith('belge ort. pay %')]]
+T['Tablo_10_Teknoloji_yenilik'] = pd.read_csv(f'{RV}/teknoloji_yenilik_gruplar.csv')
 T['Tablo_3_DSO_eslestirme'] = pd.read_csv(f'{RV}/who_eslestirme_matrisi.csv')
 T['Ek_Tablo_E1_Tema_egilim'] = pd.read_csv(f'{RV}/tema_egilim_holm_uzunluk.csv')
 T['Ek_Tablo_E2_Plan_duzeyi'] = pd.read_csv(f'{RV}/plan_duzeyi_karsilastirma.csv')
@@ -39,6 +40,7 @@ M = [
  ('Tablo 7', 'Yıllık programlar 2018–2026', 's07_cumhurbaskanligi_donemi.py', 'veri/cumhurbaskanligi_donemi_belgeler.csv', 'tablolar/Tablo_7_Yillik_programlar.csv'),
  ('Tablo 8', 'Tema dağılımı HP–YP–Plan', 's07_cumhurbaskanligi_donemi.py; s10 (permütasyon)', 'veri/cumhurbaskanligi_donemi_tema_dagilimi.csv; veri/revizyon/revizyon_testleri.json', 'tablolar/Tablo_8_Tema_dagilimi.csv'),
  ('Tablo 9', 'DSÖ yönetsel boyutları', 's10_revizyon_analizleri.py', 'veri/revizyon/who_boyut_donem_tablosu.csv', 'tablolar/Tablo_9_DSO_boyutlari.csv'),
+ ('Tablo 10', 'Teknoloji ve yenilik kategorileri', 's17_teknoloji_yenilik.py', 'veri/revizyon/teknoloji_yenilik_gruplar.csv', 'tablolar/Tablo_10_Teknoloji_yenilik.csv'),
  ('Ek Tablo E1', 'Tema eğilimi, Holm, uzunluk', 's10_revizyon_analizleri.py', 'veri/revizyon/tema_egilim_holm_uzunluk.csv', 'tablolar/Ek_Tablo_E1_Tema_egilim.csv'),
  ('Ek Tablo E2', 'Plan düzeyi karşılaştırma', 's05_saglamlik_testleri.py (eşleştirme); s10', 'veri/program_plan_eslestirme.csv; veri/revizyon/plan_duzeyi_karsilastirma.csv', 'tablolar/Ek_Tablo_E2_Plan_duzeyi.csv'),
  ('Ek Tablo E3', 'Sağlık cümlelerinde ayırt edici terimler', 's10_revizyon_analizleri.py', 'veri/revizyon/saglik_cumleleri_ayirt_edici_terimler.csv', 'tablolar/Ek_Tablo_E3_Saglik_LL.csv'),
@@ -47,6 +49,8 @@ M = [
  ('Şekil 3', 'Belge türlerine göre pay', 's08_sekiller_1_4.py', 'veri/hukumet_saglik_metrikleri.csv; veri/karsilastirma_korpuslari_metrikleri.csv', 'sekiller/Sekil_3_belge_turleri_karsilastirma.png'),
  ('Şekil 4', 'Dönem × tema ısı haritası', 's08_sekiller_1_4.py', 'veri/donem_tema_varlik_yuzde.csv', 'sekiller/Sekil_4_donem_tema_isi_haritasi.png'),
  ('Şekil 5', 'DSÖ boyutları ısı haritası', 's11_who_sekil.py', 'veri/revizyon/who_boyut_donem_tablosu.csv', 'sekiller/Sekil_5_who_yonetsel_boyutlar.png'),
+ ('Şekil 6', 'Teknoloji ve yenilik kategorilerinin seyri', 's17_teknoloji_yenilik.py', 'veri/revizyon/teknoloji_yenilik_belge.csv', 'sekiller/Sekil_6_teknoloji_yenilik.png'),
+ ('Metin 3.7 ve 4.10', 'Teknoloji–yenilik eğilimleri, ilk yıllar, HP–YP, ön denetim', 's17_teknoloji_yenilik.py', 'veri/revizyon/teknoloji_yenilik_egilim.csv; teknoloji_yenilik_ilk_yil.csv; validation/teknoloji_yenilik/', '—'),
  ('Metin 4.1–4.3', 'KW, ε², Spearman, Mann-Whitney, bootstrap', 's03_analiz.py; s06_ek_testler.py', 'veri/istatistik_testleri.json; veri/ek_testler.json', '—'),
  ('Metin 4.4', 'L-basıklık, Monte Carlo p', 's10_revizyon_analizleri.py', 'veri/revizyon/l_basiklik.csv', '—'),
  ('Metin 4.5', 'Plan/yıllık program eğilimi, Wilcoxon', 's05_saglamlik_testleri.py; s10', 'veri/saglamlik_testleri.json; veri/revizyon/revizyon_testleri.json', '—'),

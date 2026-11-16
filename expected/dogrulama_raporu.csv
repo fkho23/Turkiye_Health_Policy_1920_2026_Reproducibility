@@ -75,8 +75,6 @@ Tablo 4,2002-2018 sağlıksız program,0,0,AYNI
 4.1,1925 kelime,127,127,AYNI
 4.1,sağlığa değinmeyen program,8,8,AYNI
 4.1,sağlığa değinmeyen programlar,"GOV-1927-05,1935-08,1938-10,1939-12,1942-13,1949-18,1955-22,1973-36","1927-05,1935-08,1938-10,1939-12,1942-13,1949-18,1955-22,1973-36",AYNI
-5.1,1946 sonrası program,49,49,AYNI
-5.1,1946 sonrası sağlıksız,3,3,AYNI
 4.2,yıl–uzunluk ρ,0.7,0.69912025,AYNI
 4.2,yıl–sağlık paragraf kelimesi ρ,0.43,0.43073078,AYNI
 4.2,uzunluk–pay ρ,0.26,0.26003401,AYNI
@@ -475,13 +473,7 @@ Tablo 9,CB yıllık programl Liderlik ve ,11.7,11.7,AYNI
 4.9,"""akreditasyon"" YP2018-26",44,44,AYNI
 4.9,"""performans"" YP2018-26",42,42,AYNI
 4.9,"""memnuniyet"" YP2018-26",28,28,AYNI
-4.9,"""tıbbi cihaz"" PL1996+",58,58,AYNI
-4.9,"""tıbbi cihaz"" YP2018-26",155,155,AYNI
-4.9,"""dijital"" YP2018-26",74,74,AYNI
-4.9,"""bilişim"" YP2018-26",22,22,AYNI
-4.9,"""e-nabız"" YP2018-26",8,8,AYNI
 4.9,"""geri ödeme"" HP toplam",0,0,AYNI
-4.9,"""tıbbi cihaz"" HP toplam",0,0,AYNI
 4.9,"""akreditasyon"" HP toplam",0,0,AYNI
 4.9,"""akreditasyon"" PL<1996",0,0,AYNI
 3.6,sosyal yardım teması sosyal yardım,132,132,AYNI
@@ -489,5 +481,93 @@ Tablo 9,CB yıllık programl Liderlik ve ,11.7,11.7,AYNI
 3.6,sosyal yardım teması engelli,56,56,AYNI
 3.6,sosyal yardım teması muhtaç,43,43,AYNI
 3.6,sosyal yardım teması yoksul,37,37,AYNI
+Tablo 10,1 HP 1920–1959 belge,16,16,AYNI
+Tablo 10,1 HP 1920–1959 sağlık cümlesi,72,72,AYNI
+Tablo 10,1 HP 1920–1959 K1_Yerli_ureti,0.0,0.0,AYNI
+Tablo 10,1 HP 1920–1959 K2_Tibbi_cihaz,0.0,0.0,AYNI
+Tablo 10,1 HP 1920–1959 K3_Bilgi_siste,0.0,0.0,AYNI
+Tablo 10,1 HP 1920–1959 K4_ArGe_yenili,0.0,0.0,AYNI
+Tablo 10,1 HP 1920–1959 Herhangi,0.0,0.0,AYNI
+Tablo 10,2 HP 1960–1979 belge,18,18,AYNI
+Tablo 10,2 HP 1960–1979 sağlık cümlesi,202,202,AYNI
+Tablo 10,2 HP 1960–1979 K1_Yerli_ureti,7.4,7.4,AYNI
+Tablo 10,2 HP 1960–1979 K2_Tibbi_cihaz,0.5,0.5,AYNI
+Tablo 10,2 HP 1960–1979 K3_Bilgi_siste,0.0,0.0,AYNI
+Tablo 10,2 HP 1960–1979 K4_ArGe_yenili,0.0,0.0,AYNI
+Tablo 10,2 HP 1960–1979 Herhangi,7.9,7.9,AYNI
+Tablo 10,3 HP 1980–2001 belge,14,14,AYNI
+Tablo 10,3 HP 1980–2001 sağlık cümlesi,156,156,AYNI
+Tablo 10,3 HP 1980–2001 K1_Yerli_ureti,0.0,0.0,AYNI
+Tablo 10,3 HP 1980–2001 K2_Tibbi_cihaz,0.6,0.6,AYNI
+Tablo 10,3 HP 1980–2001 K3_Bilgi_siste,0.0,0.0,AYNI
+Tablo 10,3 HP 1980–2001 K4_ArGe_yenili,0.6,0.6,AYNI
+Tablo 10,3 HP 1980–2001 Herhangi,1.3,1.3,AYNI
+Tablo 10,4 HP 2002–2016 belge,7,7,AYNI
+Tablo 10,4 HP 2002–2016 sağlık cümlesi,88,88,AYNI
+Tablo 10,4 HP 2002–2016 K1_Yerli_ureti,0.0,0.0,AYNI
+Tablo 10,4 HP 2002–2016 K2_Tibbi_cihaz,2.3,2.3,AYNI
+Tablo 10,4 HP 2002–2016 K3_Bilgi_siste,0.0,0.0,AYNI
+Tablo 10,4 HP 2002–2016 K4_ArGe_yenili,0.0,0.0,AYNI
+Tablo 10,4 HP 2002–2016 Herhangi,2.3,2.3,AYNI
+Tablo 10,5 Plan 1–3 (1963–1977) belge,3,3,AYNI
+Tablo 10,5 Plan 1–3 (1963–1977) sağlık cümlesi,934,934,AYNI
+Tablo 10,5 Plan 1–3 (1963–1977) K1_Yerli_ureti,4.3,4.3,AYNI
+Tablo 10,5 Plan 1–3 (1963–1977) K2_Tibbi_cihaz,0.9,0.9,AYNI
+Tablo 10,5 Plan 1–3 (1963–1977) K3_Bilgi_siste,0.0,0.0,AYNI
+Tablo 10,5 Plan 1–3 (1963–1977) K4_ArGe_yenili,0.1,0.1,AYNI
+Tablo 10,5 Plan 1–3 (1963–1977) Herhangi,5.2,5.2,AYNI
+Tablo 10,6 Plan 4–6 (1979–1994) belge,3,3,AYNI
+Tablo 10,6 Plan 4–6 (1979–1994) sağlık cümlesi,429,429,AYNI
+Tablo 10,6 Plan 4–6 (1979–1994) K1_Yerli_ureti,3.5,3.5,AYNI
+Tablo 10,6 Plan 4–6 (1979–1994) K2_Tibbi_cihaz,3.5,3.5,AYNI
+Tablo 10,6 Plan 4–6 (1979–1994) K3_Bilgi_siste,0.0,0.0,AYNI
+Tablo 10,6 Plan 4–6 (1979–1994) K4_ArGe_yenili,0.5,0.5,AYNI
+Tablo 10,6 Plan 4–6 (1979–1994) Herhangi,7.0,7.0,AYNI
+Tablo 10,7 Plan 7–9 (1996–2013) belge,3,3,AYNI
+Tablo 10,7 Plan 7–9 (1996–2013) sağlık cümlesi,580,580,AYNI
+Tablo 10,7 Plan 7–9 (1996–2013) K1_Yerli_ureti,1.4,1.4,AYNI
+Tablo 10,7 Plan 7–9 (1996–2013) K2_Tibbi_cihaz,2.2,2.2,AYNI
+Tablo 10,7 Plan 7–9 (1996–2013) K3_Bilgi_siste,1.4,1.4,AYNI
+Tablo 10,7 Plan 7–9 (1996–2013) K4_ArGe_yenili,1.6,1.6,AYNI
+Tablo 10,7 Plan 7–9 (1996–2013) Herhangi,5.7,5.7,AYNI
+Tablo 10,8 Plan 10–12 (2014–2028) belge,3,3,AYNI
+Tablo 10,8 Plan 10–12 (2014–2028) sağlık cümlesi,637,637,AYNI
+Tablo 10,8 Plan 10–12 (2014–2028) K1_Yerli_ureti,3.6,3.6,AYNI
+Tablo 10,8 Plan 10–12 (2014–2028) K2_Tibbi_cihaz,13.7,13.7,AYNI
+Tablo 10,8 Plan 10–12 (2014–2028) K3_Bilgi_siste,3.3,3.3,AYNI
+Tablo 10,8 Plan 10–12 (2014–2028) K4_ArGe_yenili,3.6,3.6,AYNI
+Tablo 10,8 Plan 10–12 (2014–2028) Herhangi,17.4,17.4,AYNI
+Tablo 10,9 Yıllık program 2018–2026 belge,9,9,AYNI
+Tablo 10,9 Yıllık program 2018–2026 sağlık cümlesi,3582,3582,AYNI
+Tablo 10,9 Yıllık program 2018–2026 K1_Yerli_ureti,2.5,2.5,AYNI
+Tablo 10,9 Yıllık program 2018–2026 K2_Tibbi_cihaz,7.5,7.5,AYNI
+Tablo 10,9 Yıllık program 2018–2026 K3_Bilgi_siste,2.4,2.4,AYNI
+Tablo 10,9 Yıllık program 2018–2026 K4_ArGe_yenili,2.0,2.0,AYNI
+Tablo 10,9 Yıllık program 2018–2026 Herhangi,11.2,11.2,AYNI
+4.10,ilk yıl Kalkın K2_Tibbi_cihaz,1963,1963.0,AYNI
+4.10,ilk yıl Kalkın K4_ArGe_yenili,1973,1973.0,AYNI
+4.10,ilk yıl Kalkın K3_Bilgi_siste,1996,1996.0,AYNI
+4.10,ilk yıl Hüküme K2_Tibbi_cihaz,1977,1977.0,AYNI
+4.10,ilk yıl Hüküme K4_ArGe_yenili,1993,1993.0,AYNI
+4.10,HP tıbbi cihaz cümle,4,4,AYNI
+4.10,HP Ar-Ge cümle,1,1,AYNI
+4.10,HP bilgi sistemleri cümle,0,0,AYNI
+4.10,plan ρ K2_Tibbi_cihaz,0.75,0.748,AYNI
+4.10,"plan Holm<0,05 K2_Tibbi_cihaz","<0,05",0.0256,AYNI
+4.10,plan ρ K3_Bilgi_siste,0.74,0.741,AYNI
+4.10,"plan Holm<0,05 K3_Bilgi_siste","<0,05",0.0256,AYNI
+4.10,plan ρ K4_ArGe_yenili,0.71,0.711,AYNI
+4.10,"plan Holm<0,05 K4_ArGe_yenili","<0,05",0.0288,AYNI
+4.10,plan ρ yerli üretim,-0.39,-0.392,AYNI
+4.10,plan p yerli üretim,0.21,0.2081,AYNI
+4.10,HP Holm sonrası anlamlı kategori,0,0,AYNI
+4.10,HP 2002–16 ort. herhangi,2.3,2.3,AYNI
+4.10,YP ort. herhangi,10.8,10.8,AYNI
+4.10,HP–YP Holm p herhangi,0.008,0.0078,AYNI
+4.10,"HP–YP dört kategori Holm ≤ 0,03","≤0,03",0.0292,AYNI
+4.10,YP bilgi sistemleri ρ,0.93,0.929,AYNI
+4.10,YP bilgi sistemleri Holm p,0.004,0.0043,AYNI
+3.7,ön denetim uygun / toplam,36/40,36/40,AYNI
+3.7,ön denetim örnekleri yeniden üretilen örnekle aynı,aynı,True,AYNI
 3.4 / Tablo 2,ön doğrulama örneklemi dogrulama_orneklemi.csv arşivle aynı kayıtlar,aynı,True,AYNI
 3.4 / Tablo 2,ön doğrulama örneklemi dogrulama_orneklemi_2.csv arşivle aynı kayıtlar,aynı,True,AYNI

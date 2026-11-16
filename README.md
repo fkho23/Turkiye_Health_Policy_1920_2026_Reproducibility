@@ -1,8 +1,8 @@
-# Türkiye'de Sağlık Politikası Belgeleri, 1920–2026 — Tekrarlanabilirlik Paketi (v1.0.0)
+# Türkiye'de Sağlık Politikası Belgeleri, 1920–2026 — Tekrarlanabilirlik Paketi (v1.1.0)
 
-Bu depo, *“Türkiye'de Sağlık Sisteminin Politika Belgelerine Yansıyan Kurumsal ve Yönetsel Dönüşümü (1920–2026): Hükümet Programları, Kalkınma Planları ve Yıllık Programların Nicel Metin Analizi”* başlıklı makaledeki bütün hesaplamalı analizleri yeniden üretmek için gereken kodu, parametreleri, belge envanterini ve beklenen çıktıları içerir.
+Bu depo, *“Türkiye'de Sağlık Kurumlarının Kurumsal Çevresi ve Teknolojik Dönüşümü (1920–2026): Politika Belgelerinin Sağlık Yönetimi Perspektifinden Tarihsel Nicel Metin Analizi”* başlıklı makaledeki bütün hesaplamalı analizleri yeniden üretmek için gereken kodu, parametreleri, belge envanterini ve beklenen çıktıları içerir.
 
-*English summary:* Code, parameters, source inventory (official URLs + SHA-256) and expected outputs for fully reproducing the quantitative text analysis of 84 Turkish policy documents (63 government programmes, 12 development plans, 9 annual programmes; 1920–2026). Source PDFs are **not** redistributed; `s00` downloads them from the official sites and verifies their SHA-256 hashes. One command (`python run_all.py --kaynaklar sources`) runs the whole pipeline and compares 492 reported values with the article.
+*English summary:* Code, parameters, source inventory (official URLs + SHA-256) and expected outputs for fully reproducing the quantitative text analysis of 84 Turkish policy documents (63 government programmes, 12 development plans, 9 annual programmes; 1920–2026). Source PDFs are **not** redistributed; `s00` downloads them from the official sites and verifies their SHA-256 hashes. One command (`python run_all.py --kaynaklar sources`) runs the whole pipeline and compares 572 reported values with the article.
 
 ---
 
@@ -23,10 +23,11 @@ Bu depo, *“Türkiye'de Sağlık Sisteminin Politika Belgelerine Yansıyan Kuru
 | Cümle düzeyi veri seti | `s09_cumle_veri_seti.py` | `veri/revizyon/` |
 | Revizyon analizleri (Tablo 5, plan düzeyi Wilcoxon, kesin permütasyon, Holm + uzunluk denetimi, L-basıklık, DSÖ yapı taşları, yalnızca sağlık cümlelerinde LL) | `s10_revizyon_analizleri.py` | `veri/revizyon/` |
 | Şekil 5 (DSÖ yapı taşları) | `s11_who_sekil.py` | `sekiller/` |
+| Teknoloji ve yenilik gündemi: dört kategori, ilk görülme yılları, eğilimler, Tablo 10, Şekil 6 | `s17_teknoloji_yenilik.py` | `veri/revizyon/`, `sekiller/` |
 | Terim sayımları | `s16_terim_sayimlari.py` | `veri/revizyon/` |
 | İki ayrı kör değerlendirici formu (160 + 266 kayıt) | `s12_dogrulama_formlari.py` | `dogrulama/` |
 | Makale tabloları ve tablo/şekil → veri/kod eşleştirmesi | `s14_makale_tablolari.py` | `tablolar/` |
-| Makaledeki 492 değerle otomatik karşılaştırma | `s15_makale_ile_karsilastir.py` | `DOGRULAMA_RAPORU.md` |
+| Makaledeki 572 değerle otomatik karşılaştırma | `s15_makale_ile_karsilastir.py` | `DOGRULAMA_RAPORU.md` |
 | Kodlayıcılar arası uyum (formlar doldurulduktan sonra) | `s13_kodlayici_uyumu.py` | `dogrulama/uyum_*.csv` |
 
 Her tablo ve şeklin hangi betik ve veri dosyasından üretildiği: `expected/tablolar/Tablo_Sekil_Eslestirme.csv`.
@@ -74,13 +75,13 @@ Bütün parametreler `config/params.json` içindedir: seed'ler (42, 7, 2026), bo
 
 `expected/` klasörü, bu paketin temiz bir klasörde çalıştırılmasıyla elde edilen çıktıları içerir: `veri/` (analiz veri setleri), `tablolar/` (makale tabloları ve ek tablolar), `sekiller/` (PNG + SVG), `dogrulama_formlari/` (boş kör formlar) ve `DOGRULAMA_RAPORU.md`.
 
-Son doğrulama (16.11.2026; kaynak PDF'lerden temiz klasöre, özgün 9. Plan OCR metniyle): makalede raporlanan **492 sayısal değerin 492'si** yeniden üretildi. Bunların 14'ü ara dosyalarda 3–4 ondalıkla saklanan değerlerin tam yarım sınırında görünmesinden kaynaklanan yuvarlama sınırı durumlarıdır (ör. H = 7,2447 → makalede 7,24). Arşivdeki 32 analiz veri dosyası yeniden üretilen dosyalarla içerik düzeyinde aynıdır.
+Son doğrulama (16.11.2026, v1.1.0; kaynak PDF'lerden temiz klasöre, özgün 9. Plan OCR metniyle): makalede (v6) raporlanan **572 sayısal değerin 572'si** yeniden üretildi. Bunların 14'ü ara dosyalarda 3–4 ondalıkla saklanan değerlerin tam yarım sınırında görünmesinden kaynaklanan yuvarlama sınırı durumlarıdır (ör. H = 7,2447 → makalede 7,24). Arşivdeki 32 analiz veri dosyası yeniden üretilen dosyalarla içerik düzeyinde aynıdır.
 
 ## 6. OCR hakkında (duyarlılık)
 
 9. Kalkınma Planı'nın resmî PDF'i taranmış görüntüdür. Makaledeki sonuçlar arşivdeki özgün OCR metnine dayanır (SHA-256 `38be23a5…`, `inventory/turetilmis_metin_ozetleri.csv`). Bu metni üreten Tesseract dil modelinin tam sürümü kayıt altına alınmamıştır. `s02b` ile Tesseract 4.1.1 ve Ubuntu 22.04 `tesseract-ocr-tur` (1:4.00~git30-7274cfa-1.1, model MD5 `c64b41a5…`) kullanılarak yapılan yeni OCR bayt düzeyinde aynı metni vermez (`c563b4d7…`).
 
-Etkisi sınanmıştır (`expected/ocr_duyarlilik/`): yeni OCR ile 492 değerin 483'ü aynı kalır. Değişen 9 değerin tamamı 9. Plan OCR metnindeki karakter farklarından kaynaklanır:
+Etkisi sınanmıştır (`expected/ocr_duyarlilik/`, v1.0.0 karşılaştırma kümesiyle): yeni OCR ile 492 değerin 483'ü aynı kalır. Değişen 9 değerin tamamı 9. Plan OCR metnindeki karakter farklarından kaynaklanır:
 * 9. Plan kelime sayısı 36.566 → 36.279; sağlık payı %4,84 → %4,67.
 * Plan düzeyi Wilcoxon p 0,16 → 0,154; 34 eşleşmede p 0,014 → 0,015.
 * Tablo 9'da 7–9. Plan satırındaki DSÖ paylarında ±0,3 puan değişim; bir tema sayımında 37 → 36.
@@ -95,6 +96,10 @@ Sözlük tabanlı tespitin bağımsız insan doğrulaması **henüz yapılmamı�
 * Sözlük kararlarını içeren anahtar dosya (`_ANAHTAR_..._GONDERMEYIN.xlsx`) değerlendiricilerin görmemesi için depoya konmamıştır; `s12` ile yeniden üretilir.
 * Formlar doldurulduğunda: `python code/s13_kodlayici_uyumu.py --d1 F1.xlsx --d2 F2.xlsx [--uzlasi U.xlsx]` → Cohen's κ, yüzde uyum, sözlüğün kesinlik/duyarlılık/F1 değerleri (ağırlıklı ve ağırlıksız).
 * `validation/on_dogrulama_arsivi/`: makalenin Tablo 2'sindeki ön denetimde kullanılan örneklemler (seed 42 ve 7). Bu ön denetim yapay zekâ destekli tek değerlendirici tarafından yapılmış, kararları kayıt altına alınmamıştır; bu nedenle **hesaplamalı olarak yeniden üretilemez** ve bağımsız insan doğrulaması yerine geçmez.
+
+## 7a. Teknoloji ve yenilik kategorilerinin ön denetimi (v1.1.0)
+
+`s17` kategori başına 10 rastgele cümlelik bir ön denetim örneklemi üretir (seed 2026). Bu örneklemin kararları `validation/teknoloji_yenilik/teknoloji_yenilik_on_denetim_kararlari.csv` dosyasında kayıtlıdır (40 cümlenin 36'sı uygun). Ön denetim yapay zekâ destekli tek değerlendirici tarafından yapılmıştır ve bağımsız insan doğrulaması değildir.
 
 ## 8. Veri ve kod erişilebilirliği, yeniden dağıtım
 

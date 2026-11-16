@@ -74,6 +74,7 @@ def main():
               ('Revizyon analizleri (Tablo 5, plan düzeyi, permütasyon, Holm+uzunluk, L-basıklık, DSÖ, LL)', ['s10_revizyon_analizleri.py'], True),
               ('Şekil 5', ['s11_who_sekil.py'], True),
               ('Terim sayımları', ['s16_terim_sayimlari.py'], True),
+              ('Teknoloji ve yenilik gündemi, Tablo 10, Şekil 6', ['s17_teknoloji_yenilik.py'], True),
               ('Kör doğrulama formları', ['s12_dogrulama_formlari.py'], True),
               ('Makale tabloları ve eşleştirme', ['s14_makale_tablolari.py'], True),
               ('Makaleyle karşılaştırma', ['s15_makale_ile_karsilastir.py'], False)]

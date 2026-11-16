@@ -1,6 +1,6 @@
 # Yeniden üretim doğrulama raporu
 
-Karşılaştırılan değer: 492; aynı: 492 (bunların 14 tanesi tam yarım yuvarlama sınırında: makale yukarı/çift yuvarlamadan birini kullanmış); farklı: 0; hata: 0
+Karşılaştırılan değer: 572; aynı: 572 (bunların 14 tanesi tam yarım yuvarlama sınırında: makale yukarı/çift yuvarlamadan birini kullanmış); farklı: 0; hata: 0
 
 Tablo 2 (ön denetim kesinlikleri) hesaplamalı değildir; kodlama kararları kayıtlı olmadığından yeniden üretilemez.
 

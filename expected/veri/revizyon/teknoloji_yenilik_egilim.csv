@@ -1,0 +1,21 @@
+﻿Aile,n,Olcu,Test,Istatistik,p,p_Holm,Ortalama_HP,Ortalama_YP
+"Kalkınma planları (yıl, n = 12)",12,K1_Yerli_uretim_ve_saglik_sanayii,Spearman,-0.392,0.2081,0.2081,,
+"Kalkınma planları (yıl, n = 12)",12,K2_Tibbi_cihaz_ve_saglik_teknolojisi,Spearman,0.748,0.0051,0.0256,,
+"Kalkınma planları (yıl, n = 12)",12,K3_Bilgi_sistemleri_ve_dijital_saglik,Spearman,0.741,0.0058,0.0256,,
+"Kalkınma planları (yıl, n = 12)",12,K4_ArGe_yenilik_ve_ticarilestirme,Spearman,0.711,0.0096,0.0288,,
+"Kalkınma planları (yıl, n = 12)",12,Herhangi,Spearman,0.615,0.0332,0.0663,,
+"Yıllık programlar 2019–2026 (yıl, n = 8)",8,K1_Yerli_uretim_ve_saglik_sanayii,Spearman,0.262,0.5309,1.0,,
+"Yıllık programlar 2019–2026 (yıl, n = 8)",8,K2_Tibbi_cihaz_ve_saglik_teknolojisi,Spearman,0.19,0.6514,1.0,,
+"Yıllık programlar 2019–2026 (yıl, n = 8)",8,K3_Bilgi_sistemleri_ve_dijital_saglik,Spearman,0.929,0.0009,0.0043,,
+"Yıllık programlar 2019–2026 (yıl, n = 8)",8,K4_ArGe_yenilik_ve_ticarilestirme,Spearman,0.262,0.5309,1.0,,
+"Yıllık programlar 2019–2026 (yıl, n = 8)",8,Herhangi,Spearman,0.5,0.207,0.8281,,
+Hükümet programları (yıl),55,K1_Yerli_uretim_ve_saglik_sanayii,Spearman,-0.071,0.6065,1.0,,
+Hükümet programları (yıl),55,K2_Tibbi_cihaz_ve_saglik_teknolojisi,Spearman,0.324,0.0159,0.0797,,
+Hükümet programları (yıl),55,K3_Bilgi_sistemleri_ve_dijital_saglik,Spearman,,1.0,1.0,,
+Hükümet programları (yıl),55,K4_ArGe_yenilik_ve_ticarilestirme,Spearman,0.111,0.4179,1.0,,
+Hükümet programları (yıl),55,Herhangi,Spearman,0.115,0.4048,1.0,,
+HP 2002–2016 (n = 7) – YP 2019–2026 (n = 8),15,K1_Yerli_uretim_ve_saglik_sanayii,Mann-Whitney U,0.0,0.0008,0.004,0.0,2.5
+HP 2002–2016 (n = 7) – YP 2019–2026 (n = 8),15,K2_Tibbi_cihaz_ve_saglik_teknolojisi,Mann-Whitney U,9.0,0.0292,0.0292,2.3,7.3
+HP 2002–2016 (n = 7) – YP 2019–2026 (n = 8),15,K3_Bilgi_sistemleri_ve_dijital_saglik,Mann-Whitney U,0.0,0.0008,0.004,0.0,2.2
+HP 2002–2016 (n = 7) – YP 2019–2026 (n = 8),15,K4_ArGe_yenilik_ve_ticarilestirme,Mann-Whitney U,0.0,0.0008,0.004,0.0,2.1
+HP 2002–2016 (n = 7) – YP 2019–2026 (n = 8),15,Herhangi,Mann-Whitney U,3.0,0.0039,0.0078,2.3,10.8
